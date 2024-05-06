@@ -468,15 +468,22 @@
     padding: 59px 25px 0px 25px;
     border-radius: 136px;
     height: 348px;
+    filter: drop-shadow(0 0 0.75rem #FFFFFF);
   
   }
+  .aires:hover{
+    background: linear-gradient(86deg, #43B1E9, #E223FA);
+    
+  }
+
  .stars_name{
   font-family: 'Belgium';
-  font-size: 34px;
+  font-size: 26px;
   font-weight: 400;
   line-height: 108.2px;
   text-align: center;
   color:#fff;
+  text-transform: uppercase;
  }
  .view_text{
   font-family: 'Poppins';
@@ -486,7 +493,14 @@
   color: #D6B541;
   padding: 0px;
   margin: 0px;
+  text-decoration: none;
+ }
 
+ .view_text:hover{
+  text-decoration: none;
+  background: linear-gradient(86deg, #43B1E9, #E223FA);
+background-clip: text;
+-webkit-text-fill-color: transparent;
  }
  .view{
   border: 2px solid #D6B541;
@@ -495,8 +509,9 @@
   border-radius: 103px;
   width: 110px;
   height: 110px;
-  /* position: relative; */
+  position: relative;
   margin-top: -33px;
+  z-index: 10;
  }
 
 
@@ -888,6 +903,11 @@
       }
 
      @media (max-width: 990px){
+
+      .aires {
+        height: 395px !important;
+      }
+
       .navbar-nav{
         gap: 12px;
         text-align: center;
@@ -997,7 +1017,7 @@
     .aires {
       padding: 59px 10px 0px 10px;
       border-radius: 167px;
-      height: 442px;
+      height: 442px !important;
   }
     .view {
       padding: 58px 30px;
@@ -1043,6 +1063,11 @@
       gap: 2px;
       padding: 10px 18px;
     }
+    .aires {
+      height: 320px;
   }
+  }
+
+  
 
 

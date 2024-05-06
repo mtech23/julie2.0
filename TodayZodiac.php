@@ -14,42 +14,118 @@
     <section>
         <div class="container">
         <div class="row">
-        <div class="col-lg-3 col-sm-12 col-md-6 p-4">
-            <div class="aires">
-                 <img class="img-fluid " src="images/todayImg01.png">
-                 <h5 class="stars_name"> Aires </h5>
+            <div class="col-10 col-lg-3 col-sm-8 col-md-6 p-4 mx-auto">
+                <div class="aires">
+                    <img class="img-fluid " src="images/todayImg01.png">
+                    <h5 class="stars_name"> Aires </h5>
+                </div>
+                <div class="view mx-auto ">
+                    <a class="view_text" href="#">View</a>
+                </div>
             </div>
-            <div class="view mx-auto ">
-                <p class="view_text">View</p>
+            <div class="col-10 col-lg-3 col-sm-8 col-md-6 p-4 mx-auto">
+                <div class="aires">
+                    <img class="img-fluid " src="images/todayImage02.png">
+                    <h5 class="stars_name"> Leo </h5>
+                </div>
+                <div class="view mx-auto ">
+                    <a class="view_text" href="#">View</a>
+                </div>
+            </div>
+            <div class="col-10 col-lg-3 col-sm-8 col-md-6 p-4 mx-auto">
+                <div class="aires">
+                    <img class="img-fluid " src="images/todayImage03.png">
+                    <h5 class="stars_name"> Gemini </h5>
+                </div>
+                <div class="view mx-auto ">
+                    <a class="view_text" href="#">View</a>
+                </div>
+            </div>
+            <div class="col-10 col-lg-3 col-sm-8 col-md-6 p-4 mx-auto">
+                <div class="aires">
+                    <img class="img-fluid " src="images/todayImg04.png">
+                    <h5 class="stars_name"> Cancer </h5>
+                </div>
+                <div class="view mx-auto ">
+                    <a class="view_text" href="#">View</a>
+                </div>
             </div>
         </div>
-        <div class="col-lg-3 col-sm-12 col-md-6 p-4">
-            <div class="aires">
-                 <img class="img-fluid " src="images/todayImage02.png">
-                 <h5 class="stars_name"> Leo </h5>
+        <div class="row">
+            <div class="col-10 col-lg-3 col-sm-8 col-md-6 p-4 mx-auto">
+                <div class="aires">
+                    <img class="img-fluid " src="images/todayImg05.png">
+                    <h5 class="stars_name"> Virgo </h5>
+                </div>
+                <div class="view mx-auto ">
+                    <a class="view_text" href="#">View</a>
+                </div>
             </div>
-            <div class="view mx-auto ">
-                <p class="view_text">View</p>
+            <div class="col-10 col-lg-3 col-sm-8 col-md-6 p-4 mx-auto">
+                <div class="aires">
+                    <img class="img-fluid " src="images/todayImage04.png">
+                    <h5 class="stars_name"> Scorpio </h5>
+                </div>
+                <div class="view mx-auto ">
+                    <a class="view_text" href="#">View</a>
+                </div>
+            </div>
+            <div class="col-10 col-lg-3 col-sm-8 col-md-6 p-4 mx-auto">
+                <div class="aires">
+                    <img class="img-fluid " src="images/todayImage07.png">
+                    <h5 class="stars_name"> Capricon </h5>
+                </div>
+                <div class="view mx-auto ">
+                    <a class="view_text" href="#">View</a>
+                </div>
+            </div>
+            <div class="col-10 col-lg-3 col-sm-8 col-md-6 p-4 mx-auto">
+                <div class="aires">
+                    <img class="img-fluid " src="images/todayImage08.png">
+                    <h5 class="stars_name"> Aquarius </h5>
+                </div>
+                <div class="view mx-auto ">
+                    <a class="view_text" href="#">View</a>
+                </div>
             </div>
         </div>
-        <div class="col-lg-3 col-sm-12 col-md-6 p-4">
-            <div class="aires">
-                 <img class="img-fluid " src="images/todayImage03.png">
-                 <h5 class="stars_name"> Gemini </h5>
+        <div class="row">
+            <div class="col-10 col-lg-3 col-sm-8 col-md-6 p-4 mx-auto">
+                <div class="aires">
+                    <img class="img-fluid " src="images/todayImage09.png">
+                    <h5 class="stars_name"> Sagittarius </h5>
+                </div>
+                <div class="view mx-auto ">
+                    <a class="view_text" href="#">View</a>
+                </div>
             </div>
-            <div class="view mx-auto ">
-                <p class="view_text">View</p>
+            <div class="col-10 col-lg-3 col-sm-8 col-md-6 p-4 mx-auto">
+                <div class="aires">
+                    <img class="img-fluid " src="images/todayImg10.png">
+                    <h5 class="stars_name"> Libra </h5>
+                </div>
+                <div class="view mx-auto ">
+                    <a class="view_text" href="#">View</a>
+                </div>
             </div>
-        </div>
-        <div class="col-lg-3 col-sm-12 col-md-6 p-4">
-            <div class="aires">
-                 <img class="img-fluid " src="images/todayImg04.png">
-                 <h5 class="stars_name"> Leo </h5>
+            <div class="col-10 col-lg-3 col-sm-8 col-md-6 p-4 mx-auto">
+                <div class="aires">
+                    <img class="img-fluid " src="images/todayImage11.png">
+                    <h5 class="stars_name"> Taraus </h5>
+                </div>
+                <div class="view mx-auto ">
+                    <a class="view_text" href="#">View</a>
+                </div>
             </div>
-            <div class="view mx-auto ">
-                <p class="view_text">View</p>
+            <div class="col-10 col-lg-3 col-sm-8 col-md-6 p-4 mx-auto">
+                <div class="aires">
+                    <img class="img-fluid " src="images/todayImage12.png">
+                    <h5 class="stars_name"> Pisces </h5>
+                </div>
+                <div class="view mx-auto ">
+                    <a class="view_text" href="#">View</a>
+                </div>
             </div>
-        </div>
         </div>
         </div>
 
