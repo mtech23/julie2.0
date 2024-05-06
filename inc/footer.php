@@ -34,15 +34,18 @@
             </div>
             
           </div>
-
-          <div class="footer_bottom_div">
-            <div>
-              <span>hfghfhfhfg</span>
+         
+              <div class="footer_bottom_div">
+                  <div>
+                    <span class="copy_right">2024 - All Right Reserved.Lorem Ipsume Doller</span>
+                  </div>
+                  <div class="policies">
+                      <span > <a href="#" class="term_condition" >Terms and Conditions</a> </span>
+                      <span > <a href="#" class="term_condition" >Privacy Policy</a> </span>
+                      <span > <a href="#" class="term_condition" >Cookies</a> </span>
+                 </div>
+           
             </div>
-            <div>
-              <span>fhdfhfhhhghghhhhhghgh</span>
-            </div>
-        </div>
       </section>
 
 </div>

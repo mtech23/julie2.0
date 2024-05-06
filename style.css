@@ -335,22 +335,43 @@
       text-align: left;
       color: #fff;
       padding-left: 34px;
+      position: relative;
+      z-index: 2;
     }
 
     .julie_heading_behind {
       position: absolute;
       top: 0px;
-      transform: scale(2);
-      -webkit-text-stroke: 1px #fa239ae0;
+      transform: scale(1.8);
+      background: linear-gradient( #E223FA 100%, #43B1E9 100%);
+   
+      -webkit-background-clip: text;
+      -webkit-text-stroke: 1px transparent;
       transform-origin: left;
-      color: transparent;
+      color: #0a2e74;
       opacity: 0.5;
       font-family: var(--headingfont);
       font-size: 80px;
       font-weight: 400;
-      letter-spacing: -0.06em;
+      letter-spacing: -3px;
       text-align: left;
     }
+    .julie_heading_behind_two {
+      position: absolute;
+      top: 0px;
+      transform: scale(1.8);
+      background: linear-gradient( #E223FA 100%, #43B1E9 100%);
+      -webkit-background-clip: text;
+      -webkit-text-stroke: 1px transparent;
+      transform-origin: left;
+      color: #04406b;
+      opacity: 0.5;
+      font-family: var(--headingfont);
+      font-size: 80px;
+      font-weight: 400;
+      letter-spacing: -3px;
+      text-align: left;
+  }
 
   .julie_para{
     font-family: 'Poppins';
@@ -364,6 +385,9 @@
   .julie_image{
     border-radius: 160px;
   }
+  .julie_image_one{
+    border-radius: 160px;
+  }
   .image_border{
     border: 1px solid #E223FA;
   }
@@ -371,7 +395,10 @@
    align-items: center;
   }
   .second_about_section{
-    margin: 70px 0px;
+    margin: 100px 0px;
+  }
+  .third_about_section{
+    margin: 100px 0px;
   }
 
   h2.what_heading{
@@ -381,25 +408,375 @@
     line-height: 84.74px;
     text-align: center;
     color: #fff;
-    padding-left: 34px;
+  
+    position: relative;
+    z-index: 2;
 
   }
   h2.what_heading_behind {
     position: absolute;
     top: 0px;
-    transform: scale(2);
-    -webkit-text-stroke: 1px #fa239ae0;
-    left: 393px;
-    color: transparent;
+    transform: scale(1.8);
+    background: linear-gradient( #E223FA 100%, #43B1E9 100%);
+    -webkit-background-clip: text;
+    -webkit-text-stroke: 2px transparent;
+    transform-origin: left;
+    color: #08627d;
+    left: 219px;
     opacity: 0.5;
-    font-family: 'Astrology';
-    font-size: 80px;
+    font-family: var(--headingfont);
+    font-size: 84px;
     font-weight: 400;
-    letter-spacing: -0.06em;
+    letter-spacing: -3px;
+    text-align: center;   
+}
+  .what_we_do_card{
+    background-image: url(./images/whoweare-bk.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 35px;
+  }
+  .Tarot_Card{
+    font-family: var(--headingfont);
+    font-size: 37px;
+    font-weight: 400;
+    line-height: 70.62px;
     text-align: center;
+    color: #fff;
+
+  }
+  .Tarot_Card_para{
+    font-family: 'Poppins';
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 36px;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color:#BEBEBE;
+  }
+     /* WHO WE ARE CSS END */
+
+ /* Today Zodiac css start */
+
+
+  .aires{
+    /* border-style: solid;
+    border-image: linear-gradient(86deg, #43B1E9, #E223FA) 1; */
+    border: 3px solid #E223FA;
+    text-align: center;
+    padding: 59px 25px 0px 25px;
+    border-radius: 136px;
+    height: 348px;
+  
+  }
+ .stars_name{
+  font-family: 'Belgium';
+  font-size: 34px;
+  font-weight: 400;
+  line-height: 108.2px;
+  text-align: center;
+  color:#fff;
+ }
+ .view_text{
+  font-family: 'Poppins';
+  font-size: 18px;
+  font-weight: 500;
+  text-align: center;
+  color: #D6B541;
+  padding: 0px;
+  margin: 0px;
+
+ }
+ .view{
+  border: 2px solid #D6B541;
+  text-align: center;
+  padding: 40px 30px;
+  border-radius: 103px;
+  width: 110px;
+  height: 110px;
+  /* position: relative; */
+  margin-top: -33px;
+ }
+
+
+/* Today Zodiac css end */
+
+/* login page css start */
+
+
+
+/* LOGIN SECTION CSS START (login_section) */
+
+.login_section{
+  background-image: url("./images/login-bk.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 130px 0px;
 }
 
-     /* WHO WE ARE CSS END */
+.login_para{
+  font-size: 12px;
+  line-height: 18px;
+  color: #c1c1c1;
+  font-family: var(--contentfont);
+}
+
+.other_social_logins{
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+
+}
+
+.other_login_img img{
+  height: 20px;
+  width: 20px;
+}
+
+.other_login_btn{
+  display: flex;
+  gap: 10px;
+  background-color: transparent;
+  border: 1px solid #9e56a9;
+  padding: 10px 22px;
+  border-radius: 30px;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.other_login_btn:hover{
+  background-color: #43B1E9;
+}
+
+.other_login_btn span{
+  color: #fff;
+  font-family: var(--contentfont);
+  font-size: var(--secondaryfontsize);
+  text-transform: capitalize;
+}
+
+.login_section form label{
+  color: #fff;
+  font-family: var(--contentfont);
+  font-size: 14px;
+  position: relative;
+  width: 100%;
+}
+
+.login_section form input{
+  background-color: #3622224a !important;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  padding-left: 24px;
+  position: relative;
+}
+
+.login_section form input::placeholder{
+  color: #fff;
+  font-family: var(--contentfont);
+  font-size: 12px;
+}
+
+.login_section form input:focus{
+  color: #ffffffbd;
+  box-shadow: none;
+  border: 1px solid  #43B1E9;
+}
+
+.login_section .email_label:after{
+  content: '';
+  background-image: url("./images/input-email.png");
+  background-size: cover;
+  height: 24px;
+  width: 24px;
+  display: block;
+  position: absolute;
+  right: 25px;
+  top: 44px;
+  z-index: 10;
+}
+
+.login_section .password_label:after{
+  content: '';
+  background-image: url("./images/input-lock.png");
+  background-size: cover;
+  height: 24px;
+  width: 24px;
+  display: block;
+  position: absolute;
+  right: 25px;
+  top: 44px;
+  z-index: 10;
+}
+
+.forgot_password_text{
+  text-decoration: none;
+}
+
+.forgot_password_text:hover{
+  text-decoration: none;
+  color: #fff;
+}
+
+.login_actionBtn{
+  display: inline-block;
+  width: 100%;
+  background-color: #E1BE43;
+  color: #000;
+  padding: 10px;
+  text-align: center;
+  border-radius: 30px;
+  text-decoration: none;
+  font-family: 'poppins';
+  font-weight: 700;
+}
+
+.login_actionBtn:hover{
+  text-decoration: none;
+  color: #000;
+}
+
+.login_section .account_text{
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  color: #cbcbcb;
+  font-size: var(--contentfont);
+}
+
+.login_section .create_account_text{
+  color: #43B1E9;
+  font-size: var(--contentfont);
+  text-decoration: none;
+}
+
+.login_section .create_account_text:hover{
+  color: #43B1E9;
+  font-size: var(--contentfont);
+  text-decoration: none;
+}
+
+.right_login_form{
+    background: linear-gradient(180deg, hsl(293deg 96% 56% / 50%) 0%, hsl(200deg 79% 59% / 46%) 100%);
+    padding: 112px 50px 20px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: 1px solid #43B1E9;
+}
+
+.signin_with_text{
+  font-size: 14px;
+  line-height: 18px;
+  color: #ffffff;
+  font-family: var(--contentfont);
+}
+
+.login_first_img img{
+  height: 730px;
+  object-fit: cover;
+}
+
+/* LOGIN SECTION CSS END */
+
+
+
+/* CALENDAR CSS START */
+
+.pignose-calendar{
+  max-width: 400px !important;
+  background-color: rgb(126 126 126 / 20%) !important;
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5.9px);
+  -webkit-backdrop-filter: blur(5.9px);
+  border: 1px solid rgb(74 157 255 / 70%) !important;
+}
+
+.pignose-calendar .pignose-calendar-top{
+  background-color: transparent !important;
+  padding: 30px 0px !important;
+  border-bottom: none !important;
+  box-shadow: none !important;
+}
+
+.pignose-calendar .icon-arrow-left:before, .pignose-calendar .icon-arrow-right:before{
+  color: #fff;
+}
+
+.pignose-calendar-top-date{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-left: 55px !important;
+  color: #fff;
+  gap: 6px;
+}
+
+.pignose-calendar-top-month{
+  margin: 0px !important;
+  font-family: var(--headingfont);
+  font-size: 28px !important;
+  font-weight: 500 !important;
+}
+
+.pignose-calendar-top-year{
+  color: #fff !important;
+  font-family: var(--headingfont);
+  font-size: 28px !important;
+}
+
+.pignose-calendar-header{
+  margin-top: 0px !important;
+}
+
+.pignose-calendar .pignose-calendar-header .pignose-calendar-week{
+  color: #fff !important;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+}
+
+.pignose-calendar .pignose-calendar-unit{
+  border: 1px solid #fff !important;
+  height: 53px !important;
+  width: 51px !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+}
+
+.pignose-calendar .pignose-calendar-unit a{
+  color: #fff !important;
+}
+
+.pignose-calendar .pignose-calendar-unit.pignose-calendar-unit-sat a, .pignose-calendar .pignose-calendar-unit.pignose-calendar-unit-sun a{
+  color: #fff !important;
+}
+
+.pignose-calendar .pignose-calendar-unit.pignose-calendar-unit-active a{
+  border-radius: 0px !important;
+  width: 100% !important;
+  height: 100% !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+  color: #000 !important;
+}
+
+.pignose-calendar .pignose-calendar-body{
+  margin-bottom: 20px !important;
+}
+
+/* CALENDAR CSS END */
+
+
+
+
+/* login page css end */
+
 
 
   /* FOOTER SECTION CSS START (footer_section) */
@@ -418,7 +795,8 @@
 }
 
 .footer_bottom_div{
-  background: linear-gradient(90deg, hsla(335, 91%, 70%, 1) 0%, hsla(49, 89%, 61%, 1) 100%);
+  /* background: linear-gradient(90deg, hsla(335, 91%, 70%, 1) 0%, hsla(49, 89%, 61%, 1) 100%); */
+  background: linear-gradient(86deg, #43B1E9, #E223FA);
   display: flex;
   justify-content: space-between;
   padding: 10px 24px;
@@ -454,7 +832,7 @@
 .footer_social_links:hover{
   color: #fff;
   text-decoration: none;
-  background: linear-gradient(90deg, hsla(335, 91%, 70%, 1) 0%, hsla(49, 89%, 61%, 1) 100%);
+  background: linear-gradient(86deg, #43B1E9, #E223FA);
 }
 
 .all_social_icons{
@@ -463,10 +841,51 @@
   gap: 10px;
   align-items: center;
 }
+.copy_right{
+  font-family: 'Arial';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 41.09px;
+  text-align: center;
+  color: #fff;
 
+}
+.term_condition{
+  font-family:'Arial';
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 34.92px;
+  text-align: left;
+  color: #fff;
+
+}
+.term_condition:hover{
+ text-decoration: none;
+  background: linear-gradient (86deg, #43B1E9, #E223FA);
+  -webkit-background-clip: text;
+}
+.policies{
+  display: flex;
+  gap:30px;
+  flex-wrap: wrap;
+}
 /* FOOTER SECTION CSS END */
 
+      @media(max-width: 600px){
 
+        .right_login_form{
+          border-top-left-radius: 10px;
+          border-top-right-radius: 10px;
+        }
+
+        .right_login_form {
+          padding: 80px 40px 30px;
+      }
+
+      .other_social_logins{
+        gap: 12px;
+      }
+      }
 
      @media (max-width: 990px){
       .navbar-nav{
@@ -478,6 +897,13 @@
         border-bottom: 1px solid #818181;
         padding-bottom: 12px;
       }
+      .pictures{
+        display: none;
+      }
+    
+      .right_login_form {
+        padding: 120px 40px 20px;
+    }
 
       .navbar-collapse{
         background-image: linear-gradient(90deg, rgb(134, 17, 192) 0%, rgb(3, 1, 17) 100%);
@@ -503,6 +929,10 @@
     .banner_top_section {
       padding: 60px 0px;
     }
+    .login_section .jewelry{
+      font-size: 50px !important;
+    }
+  
     p.jewelry_para {
       display: -webkit-box;
       overflow: hidden;
@@ -520,6 +950,99 @@
     .art_work {
       padding: 6px 39px;
     }
+    h2.julie_heading {
+      font-size: 50px;
     }
+    .julie_heading_behind {
+      font-size: 70px;
+
+    }
+    .julie_heading_behind_two{
+      font-size: 45px;
+      top: 22px;
+    }
+    h2.what_heading_behind{
+      font-size: 41px;
+      top: 20px;
+      left: 195px !important;
+    }
+    h2.what_heading {
+      font-size: 45px;
+    }
+    
+    .second_about_section {
+      margin: 50px 0px;
+    }
+    .third_about_section{
+      margin: 20px 0px;
+    }
+    .asisstant{
+      margin-top: 40px;
+    }
+   
+    .Tarot_Card {
+    font-size: 22px;
+    }
+    .Tarot_Card_para {
+      display: -webkit-box;
+      overflow: hidden;
+      -webkit-line-clamp: 4;
+      -webkit-box-orient: vertical;
+      padding: 0;
+      font-size: 10px;
+    }
+    .what_we_do_card {
+      padding: 36px 35px !important;
+    }
+    .aires {
+      padding: 59px 10px 0px 10px;
+      border-radius: 167px;
+      height: 442px;
+  }
+    .view {
+      padding: 58px 30px;
+      border-radius: 103px;
+      width: 140px;
+      height: 140px;
+    
+      margin-top: -50px;
+    }
+   }
+    @media (max-width:375px) {
+      h2.what_heading_behind {
+        left: 18px !important;
+    }
+
+    }
+    @media (max-width:425px) {
+      h2.what_heading_behind {
+        left: 56px !important;
+    }
+    .julie_image_one{
+      margin-top: 40px;
+    }
+    .asisstant_cards{
+      margin-top: 40px;
+    }
+    .what_we_do_card {
+      padding: 143px 35px !important;
+  }
+    }
+    @media (max-width:1024px) {
+      h2.what_heading_behind {
+        left: 153px;
+    }
+    .what_we_do_card {
+      padding: 29px 35px
+    }
+    .right_login_form{
+      padding: 70px 40px 20px;
+    }
+  
+    .other_login_btn{
+      gap: 2px;
+      padding: 10px 18px;
+    }
+  }
 
 
