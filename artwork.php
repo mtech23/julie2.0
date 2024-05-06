@@ -1,64 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Julie Project</title>
-    <link rel="stylesheet" href="./style.css">
-
-    <!-- Bootstrap Links -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
-
-</head>
-<body>
-
-    <header class="main_header main_bg">
-        <nav class="navbar navbar-expand-lg navbar-light ">
-            <a class="navbar-brand logo-name" href="#">LOGO HERE</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            
-          
-            <div class="collapse navbar-collapse " id="navbarSupportedContent">
-              <ul class="navbar-nav  mx-auto">
-                <li class="nav-item ">
-                  <a class="nav-link main_menu_head" href="javascript:;">Home</a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link main_menu_head" href="javascript:;">Our Store</a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link main_menu_head" href="javascript:;">Today Zodiac</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link main_menu_head" href="javascript:;">Blogs</a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link main_menu_head" href="javascript:;">Let’s Meet</a>
-                  </li>
-                  
-                  <li class="nav-item">
-                    <a class="nav-link main_menu_head" href="javascript:;">Who We Are</a>
-                  </li>
-
-              </ul>
-              <form class="form-inline my-2 my-lg-0">
-                <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search"> -->
-                <button class="login_btn btn my-2 my-sm-0" type="submit">
-                  <img src="./images/User.png" alt="">
-                  <span>Login</span>
-                </button>
-              </form>
-            </div>
-          </nav>
-    </header>
+<?php include 'inc/header.php'; ?>
 
     <section class="banner_top_section">
         <div class="container">
@@ -191,30 +131,8 @@
         </div>
       </section>
 
-      <section class="footer_section">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-10 mx-auto">
-                <div class="footer_content">
-                  <h5 class="product_name text-center">Julie</h5>
-                  <p class="footer_para">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 
-                  </p>
-                  <p class="footer_para">
-                    5511 Arlington Road, Jacksonville, Fl 32211
-                  </p>
-
-                  <div>
-                    <span class=""></span>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-      </section>
       
-   </div>
+   
 
 
-</body>
-</html>
+   <?php include 'inc/footer.php'; ?>

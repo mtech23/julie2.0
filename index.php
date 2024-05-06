@@ -1,65 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Julie Project</title>
-    <link rel="stylesheet" href="./style.css">
 
-    <!-- Bootstrap Links -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+<?php include 'inc/header.php'; ?>
 
-    <!-- fontawesome links -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
-</head>
-<body>
-
-    <header class="main_header">
-        <nav class="navbar navbar-expand-lg navbar-light align-items-center">
-            <a class="navbar-brand logo-name" href="#">LOGO HERE</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
-            </button>
-            
-          
-            <div class="collapse navbar-collapse align-items-center" id="navbarSupportedContent">
-              <ul class="navbar-nav  mx-auto">
-                <li class="nav-item ">
-                  <a class="nav-link main_menu_head" href="javascript:;">Home</a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link main_menu_head" href="javascript:;">Our Store</a>
-                </li>
-
-                <li class="nav-item">
-                  <a class="nav-link main_menu_head" href="javascript:;">Today Zodiac</a>
-                </li>
-
-                <li class="nav-item">
-                    <a class="nav-link main_menu_head" href="javascript:;">Blogs</a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a class="nav-link main_menu_head" href="javascript:;">Let’s Meet</a>
-                  </li>
-                  
-                  <li class="nav-item">
-                    <a class="nav-link main_menu_head" href="javascript:;">Who We Are</a>
-                  </li>
-
-              </ul>
-              <form class="form-inline my-2 my-lg-0">
-                <a href="javascript:;" class="login_btn">
-                  <img src="./images/User.png" alt="">
-                  <span>Login</span>
-                </a>
-              </form>
-            </div>
-          </nav>
-    </header>
 
     <section class="banner_top_section">
         <div class="container">
@@ -196,55 +137,6 @@
         </div>
       </section>
 
-      <section class="footer_section">
-          <div class="container">
-            <div class="row">
-              <div class="col-md-10 mx-auto">
-                <div class="footer_content">
-                  <h5 class="product_name text-center">Julie</h5>
-                  <p class="footer_para">
-                    Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 
-                  </p>
-                  <p class="footer_para">
-                    5511 Arlington Road, Jacksonville, Fl 32211
-                  </p>
-
-                  <div class="followus_social_links">
-                    <div class="">
-                      <span class="follow_us_text">follow us</span>
-                    </div>
-                    <div class="all_social_icons">
-                        <a class="footer_social_links" href="javascript:;">
-                          <i class="fa-brands fa-facebook-f"></i>
-                        </a>
-                        <a class="footer_social_links" href="javascript:;">
-                          <i class="fa-brands fa-square-instagram"></i>
-                        </a>
-                        <a class="footer_social_links" href="javascript:;">
-                          <i class="fa-brands fa-linkedin-in"></i>
-                        </a>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            
-          </div>
-
-          <div class="footer_bottom_div">
-            <div>
-              <span>hfghfhfhfg</span>
-            </div>
-            <div>
-              <span>fhdfhfhhhghghhhhhghgh</span>
-            </div>
-        </div>
-      </section>
-
-      
-      
-   </div>
 
 
-</body>
-</html>
+      <?php include 'inc/footer.php'; ?>
