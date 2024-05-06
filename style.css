@@ -787,12 +787,118 @@ background-clip: text;
 
 /* CALENDAR CSS END */
 
-
-
-
 /* login page css end */
 
+/* let's meet css start */
+.meeting{
+  font-family: 'Astrology';
+  font-size: 65px;
+  font-weight: 400;
+  line-height: 80.83px;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color:#fff;
 
+}
+.select_heading{
+  font-family: 'Astrology';
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 49.5px;
+  letter-spacing: 0.02em;
+  text-align: left;
+  color:#fff;
+
+}
+
+.lets_meet_section .post_heading_with_description{
+  margin: -50px 13px 0px 13px;
+}
+
+.lets_meet_section .form-group label{
+  color: #fff;
+  font-family: var(--contentfont);
+  font-size: 14px;
+  position: relative;
+  width: 100%;
+}
+
+.lets_meet_section .form-group input{
+  background-color: #3622224a !important;
+  height: 50px;
+  border-radius: 30px;
+  border: none;
+  color: #fff;
+  padding-left: 24px;
+  position: relative;
+}
+
+.lets_meet_section .form-group input::placeholder{
+  color: #fff;
+  font-family: var(--contentfont);
+  font-size: 12px;
+}
+
+.lets_meet_section .form-group input:focus{
+  color: #ffffffbd;
+  box-shadow: none;
+  border: 1px solid  #43B1E9;
+}
+
+.all_radio_btns{
+  display: flex;
+  gap: 45px;
+  flex-wrap: nowrap;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.radio_btns{
+  display: flex;
+  gap: 16px;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+.email_option{
+  font-family: 'Poppins';
+  font-size: 23.75px;
+  font-weight: 400;
+  line-height: 908.45px;
+  text-align: right;
+
+
+}
+
+.radio_btns p{
+  color: #fff;
+}
+
+.custom_checkbox{
+  appearance: none;
+  height: 20px;
+  width: 20px;
+  background-color: #fff;
+  border-radius: 50%;
+  position: relative;
+}
+
+.custom_checkbox:checked::after {
+  content: '\f00c';
+  font-family: 'fontawesome';
+  height:20px;
+  width: 20px;
+  /* background-color: bisque; */
+      background: linear-gradient(86deg, #43B1E9, #E223FA);
+  position: absolute;
+  border-radius: 50%;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  font-size: 12px;
+  color: #fff;
+}
+
+/* let's meet css end */
 
   /* FOOTER SECTION CSS START (footer_section) */
 
