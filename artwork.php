@@ -20,7 +20,7 @@
               <div class="jewelry_heading_with_para">
                 <h3 class="jewelry">Artwork</h3>
                 <p class="jewelry_para"> Lorem Ipsum is simply dummy text of the printing and <br> Lorem Ipsum is simply dummy text of the printing and</p>
-                <button class="art_work">Artwork</button>
+                <a href="#"> <button class="art_work">Jewelry</button> </a>
                 <h6 class="price"> Price </h6>
               </div>
             </div>
