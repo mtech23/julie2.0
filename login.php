@@ -57,7 +57,7 @@
                             <p class="signin_with_text text-center">Or Sign In With</p>
                         </div>
 
-                        <form>
+                        <form action="./index.php" method="POST">
                             <div class="form-group">
                                 <label for="exampleInputEmail1" class="email_label">E-mail</label>
                                 <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="example@gmail.com">
@@ -75,7 +75,7 @@
                             </div>
 
                             <div class="login_btn_main">
-                                <a href="javascript:;" class="login_actionBtn" type="button">Login</a>
+                                <button class="login_actionBtn border-0" type="submit">Login</button>
                             </div>
 
                             <div>
