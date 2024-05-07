@@ -15,7 +15,7 @@
 
       <section class="artwork_section">
         <div class="container">
-          <div class="row fadeInUp-animation">
+          <div class="row" data-aos="fade-up">
             <div class="col-md-12">
               <div class="jewelry_heading_with_para">
                 <h3 class="jewelry">Artwork</h3>
@@ -27,7 +27,7 @@
           </div>
 
           <!-- jewelry boxes start-->
-          <div class="row in-left">
+          <div class="row">
             <div class="col-lg-3 col-sm-12 col-md-6">
               <div class="jewelry_main_boxes">
                 <div class="jewelry_box_img"><img class="jewelry_image img-fluid " src="images/artworkImg01.png"></div>
