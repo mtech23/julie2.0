@@ -31,6 +31,37 @@
                   </div>
                 </div>
               </div>
+              <div class=col-md-12>
+                  <div class=" mx-auto">
+                    
+                        <ul class="footer_menu">
+                          <li class="">
+                            <a class="footer_links" href="index">Home</a>
+                          </li>
+
+                          <li class="">
+                            <a class="footer_links" href="artwork">Our Store</a>
+                          </li>
+
+                          <li class="">
+                            <a class="footer_links" href="TodayZodiac">Today Zodiac</a>
+                          </li>
+
+                          <li class="">
+                            <a class="footer_links" href="blogs">Blogs</a>
+                          </li>
+
+                          <li class="">
+                            <a class="footer_links" href="let'sMeet">Let’s Meet</a>
+                          </li>
+
+                          <li class="">
+                            <a class="footer_links" href="WhoWeAre">Who We Are</a>
+                          </li>
+                      </ul>
+                  
+                </div>
+              </div>
             </div>
             
           </div>
@@ -52,6 +83,14 @@
       
       <?php include 'inc/script.php' ?>
 
-
+      <script>
+      $(document).on('ready', function () {
+    // initialization of aos
+    AOS.init({
+      duration: 650,
+      once: true
+    });
+  });
+</script>
 </body>
 </html>

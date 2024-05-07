@@ -13,7 +13,7 @@
 <div class="main_body_bg">
     <section>
         <div class="container">
-        <div class="row">
+        <div class="row" data-aos="fade-up-left" >
             <div class="col-10 col-lg-3 col-sm-8 col-md-6 p-4 mx-auto">
                 <div class="aires">
                     <img class="img-fluid " src="images/todayImg01.png">
@@ -51,7 +51,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row" data-aos="fade-right" >
             <div class="col-10 col-lg-3 col-sm-8 col-md-6 p-4 mx-auto">
                 <div class="aires">
                     <img class="img-fluid " src="images/todayImg05.png">
@@ -89,7 +89,7 @@
                 </div>
             </div>
         </div>
-        <div class="row">
+        <div class="row" data-aos="fade-up-left">
             <div class="col-10 col-lg-3 col-sm-8 col-md-6 p-4 mx-auto">
                 <div class="aires">
                     <img class="img-fluid " src="images/todayImage09.png">

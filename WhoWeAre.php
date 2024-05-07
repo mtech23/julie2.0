@@ -13,7 +13,7 @@
    <div class="main_body_bg">
       <section>
             <div class="container">
-                <div class="row">
+                <div class="row" data-aos="fade-up-left">
                     <div class="col-lg-7 col-sm-12 ">
                         <div>
                             <h2 class="julie_heading_behind">Julie</h2>
@@ -45,7 +45,7 @@
       </section>
       <section class="second_about_section">
         <div class="container">
-            <div class="row">
+            <div class="row" data-aos="fade-right">
                 <div class="col-lg-5 col-sm-12">
                     <div class="row">
                         <div class="col-md-6 col-sm-12">
@@ -80,7 +80,7 @@
   </section>
       <section class="third_about_section">
         <div class="container">
-            <div class="row">
+            <div class="row" data-aos="fade-up-left">
                 <div class="col-md-12">
                     <div>
                         <h2 class="what_heading_behind">WHAT WE DO</h2>
@@ -89,7 +89,7 @@
                     </div>
                 </div>
             </div>
-           <div class="row mt-5">
+           <div class="row mt-5" data-aos="fade-up">
                 <div class="col-md-4 col-sm-12 ">
                     <div class="what_we_do_card ">
                         <h3 class="Tarot_Card">Tarot Card</h3>

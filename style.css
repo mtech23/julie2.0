@@ -62,6 +62,15 @@
     font-size: 14px;
     padding: 0px 10px !important;
   }
+  
+  a.nav-link.main_menu_head:hover{
+    text-decoration: underline !important;
+    /* background: -webkit-linear-gradient(286deg, #43B1E9, #E223FA) !important;
+    -webkit-background-clip: text !important;
+    color: transparent !important; */
+    color: #E223FA !important;
+   
+  }
 
   .login_btn{
     border: 1px solid #fff;
@@ -76,6 +85,7 @@
   .login_btn:hover{
     color: #fff;
     text-decoration: none;
+    background: linear-gradient(286deg, #43B1E9, #E223FA);
   }
 
   .navbar-toggler{
@@ -96,6 +106,7 @@
     padding-left: 3px;
     display: inline-block;
   }
+  
 
   /* HEADER SECTION CSS END */
 
@@ -163,7 +174,10 @@
     border: 1px solid #43B1E9;
     font-size: 14px;
   }
-  
+  .art_work:hover{
+    background: linear-gradient(286deg, #43B1E9, #E223FA);
+    color:#fff;
+  }
   .price{
     font-family: var(--contentfont);
     font-size: var(--primaryfontsize);
@@ -220,8 +234,8 @@
   .details:hover{
     color: #fff;
     text-decoration: none;
-    background-color: #043559;
-    border: 1px solid #043559;
+    background: linear-gradient(286deg, #43B1E9, #E223FA);
+    
   }
 
   .jewelry_box_img {
@@ -239,8 +253,112 @@
     transform: translate(-50%, -50%);
     border-radius: 140px;
   }
+    /* animation for home page start*/
+    @keyframes fadeInLeft {
+      from {
+          opacity:0;
+          -webkit-transform: translatex(-100px);
+          -moz-transform: translatex(-100px);
+          -o-transform: translatex(-100px);
+          transform: translatex(-100px);
+      }
+      to {
+          opacity:1;
+          -webkit-transform: translatex(0);
+          -moz-transform: translatex(0);
+          -o-transform: translatex(0);
+          transform: translatex(0);
+      }
+  }
+    .in-left {
+        -webkit-animation-name: fadeInLeft;
+        -moz-animation-name: fadeInLeft;
+        -o-animation-name: fadeInLeft;
+        animation-name: fadeInLeft;
+        -webkit-animation-fill-mode: both;
+        -moz-animation-fill-mode: both;
+        -o-animation-fill-mode: both;
+        animation-fill-mode: both;
+        -webkit-animation-duration: 1s;
+        -moz-animation-duration: 1s;
+        -o-animation-duration: 1s;
+        animation-duration: 1s;
+        -webkit-animation-delay: 1s;
+        -moz-animation-delay: 1s;
+        -o-animation-duration:1s;
+        animation-delay: 1s;
+    }
+    @keyframes fadeInUp {
+      0% {
+        transform: translateY(100%);
+        opacity: 0;
+      }
+      100% {
+        transform: translateY(0%);
+        opacity: 1;
+      }
+    }
+    
+    .fadeInUp-animation {
+      animation: 1.5s fadeInUp;
+    }
+    @keyframes fadeInRight {
+      from {
+        opacity: 0;
+        transform: translateX(300px);
+      }
+      to {
+        opacity: 1;
+      }
+    }
+    .fadeInRight-animation{
+      animation: fadeInRight 1s ease-in-out;
+    }
+ /* animation for home page end*/
 
-    /* jewelry boxes end  */
+  /* jewelry boxes end  */
+
+  /* range slider start */
+  .slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 7px;
+    border-radius: 5px;
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider:hover {
+    opacity: 1;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: linear-gradient(286deg, #43B1E9, #E223FA);
+    border: 1px solid #fff;
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #E223FA;
+    cursor: pointer;
+  }
+  .range_number{
+    color: #fff;
+  }
+/* range slider end */
+
+
 
   /* JEWELRY SECTION CSS END */
 
@@ -1092,14 +1210,35 @@ input#datetime.time_selection_box{
 }
 .term_condition:hover{
  text-decoration: none;
-  background: linear-gradient (86deg, #43B1E9, #E223FA);
+  /* background: linear-gradient(86deg, #43B1E9, #E223FA);
   -webkit-background-clip: text;
+  color: transparent; */
+  color: #043559;
 
 }
 .policies{
   display: flex;
   gap:30px;
   flex-wrap: wrap;
+}
+ul.footer_menu{
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+  
+}
+.footer_links{
+  color: #fff;
+  font-weight: 700;
+}
+.footer_links:hover{
+  text-decoration: underline !important;
+  background: -webkit-linear-gradient(286deg, #43B1E9, #E223FA) !important;
+  -webkit-background-clip: text !important;
+  color: transparent !important;
 }
 /* FOOTER SECTION CSS END */
 
@@ -1206,7 +1345,12 @@ input#datetime.time_selection_box{
     h2.what_heading {
       font-size: 45px;
     }
-    
+    .navbar-collapse.in {
+      position: absolute;
+      width: 100%;
+      left: 0;
+      top: 48px;
+     }
     .second_about_section {
       margin: 50px 0px;
     }
