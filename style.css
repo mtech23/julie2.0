@@ -186,11 +186,12 @@
   
   .product_name{
     font-family: var(--headingfont);
-    font-size: var(--headingfontsize);
+    /* font-size: var(--headingfontsize); */
     /* line-height: 38.5px; */
     text-align: center;
     color: #fff;
     padding-top: 20px;
+    font-size: 40px;
   }
 
   .product_description{
@@ -1012,9 +1013,16 @@ input#datetime.time_selection_box{
 
 .footer_para{
   font-family: var(--contentfont);
-  font-size: var(--secondaryfontsize);
+  font-size:14px;
   color: #fff;
   text-align: center;
+}
+.footer_para_address{
+  font-family: var(--contentfont);
+  font-size: 15px;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
 }
 
 .footer_bottom_div{

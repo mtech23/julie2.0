@@ -9,7 +9,7 @@
                   <p class="footer_para">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry Lorem Ipsum has been the industry's standard dummy text ever since the 
                   </p>
-                  <p class="footer_para">
+                  <p class="footer_para_address">
                     5511 Arlington Road, Jacksonville, Fl 32211
                   </p>
 
