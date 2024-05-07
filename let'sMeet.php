@@ -28,8 +28,8 @@
             <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
                 <div class="blog_boxes">
                     <div class="blogs_card_img"><img class="post_image img-fluid" src="images/meeting1.png"></div>
-                    <div class="post_heading_with_description ">
-                        <h5 class="post_name">Tarot Card Reading</h5>
+                    <div class="reading_cards_headings ">
+                        <h5 class="reading_cards">Tarot Card Reading</h5>
                         
                     </div>
                 </div>
@@ -37,8 +37,8 @@
             <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
                 <div class="blog_boxes">
                     <div class="blogs_card_img"><img class="post_image img-fluid" src="images/meeting2.png"></div>
-                    <div class="post_heading_with_description ">
-                        <h5 class="post_name">Transit Calendar</h5>
+                    <div class="reading_cards_headings_two">
+                        <h5 class="reading_cards">Transit Calendar</h5>
                        
                     </div>
                 </div>
@@ -46,8 +46,8 @@
             <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
                 <div class="blog_boxes">
                     <div class="blogs_card_img"><img class="post_image img-fluid" src="images/meeting3.png"></div>
-                    <div class="post_heading_with_description ">
-                        <h5 class="post_name">Birth Chart Reading</h5>
+                    <div class="reading_cards_headings_three">
+                        <h5 class="reading_cards">Birth Chart Reading</h5>
                         
                     </div>
                 </div>
@@ -101,15 +101,26 @@
 <section>
         <div class="container">
           <div class="row">
-            <div class="col-md-6">
-              <div class="pt-5">
-                
-                    <div id="basic" class="">
-                      <div class="calendar"></div>
-                    </div>
+                <div class="col-md-6">
+                    <div class="pt-5">
+                        
+                            <div id="basic" class="">
+                            <div class="calendar"></div>
+                            </div>
 
-              </div>
-            </div>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="pt-5">
+                        
+                        <div>
+                            <input class="form-control time_selection_box" type="text" id="datetime" placeholder="Select Time" />
+                          
+                        </div>
+
+
+                    </div>
+                </div>
 
           </div>
         </div>
@@ -156,3 +167,11 @@
     });
 
       </script>
+      <script>
+            // Below code sets format to the 
+        // datetimepicker having id as 
+        // datetime
+        $('#datetime').datetimepicker({
+            format: 'hh:mm:ss a'
+        });
+    </script>
