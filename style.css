@@ -1094,7 +1094,7 @@ input#datetime.time_selection_box{
  text-decoration: none;
   background: linear-gradient (86deg, #43B1E9, #E223FA);
   -webkit-background-clip: text;
-  
+
 }
 .policies{
   display: flex;
@@ -1163,12 +1163,12 @@ input#datetime.time_selection_box{
         font-size: 10px;
         line-height: 18px;
     }
-    .banner_top_section {
-      padding: 60px 0px;
-    }
-    .login_section .jewelry{
-      font-size: 50px !important;
-    }
+      .banner_top_section {
+        padding: 60px 0px;
+      }
+      .login_section .jewelry{
+        font-size: 50px !important;
+      }
   
     p.jewelry_para {
       display: -webkit-box;
