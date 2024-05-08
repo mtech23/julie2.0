@@ -14,93 +14,93 @@
 
 <section class="lets_meet_section">
     <div class="container">
-        <div class="row">
-            <div class="col-md-12">
-                <h3 class="meeting">Meeting Form</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <h3 class="select_heading">Select The Purpose Of Meeting</h3>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
-                <div class="blog_boxes">
-                    <div class="blogs_card_img"><img class="post_image img-fluid" src="images/meeting1.png"></div>
-                    <div class="reading_cards_headings ">
-                        <h5 class="reading_cards">Tarot Card Reading</h5>
-                        
+    <div data-aos="fade-right">
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="meeting">Meeting Form</h3>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
-                <div class="blog_boxes">
-                    <div class="blogs_card_img"><img class="post_image img-fluid" src="images/meeting2.png"></div>
-                    <div class="reading_cards_headings_two">
-                        <h5 class="reading_cards">Transit Calendar</h5>
-                       
+                <div class="row">
+                    <div class="col-md-12">
+                        <h3 class="select_heading">Select The Purpose Of Meeting</h3>
                     </div>
                 </div>
-            </div>
-            <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
-                <div class="blog_boxes">
-                    <div class="blogs_card_img"><img class="post_image img-fluid" src="images/meeting3.png"></div>
-                    <div class="reading_cards_headings_three">
-                        <h5 class="reading_cards">Birth Chart Reading</h5>
-                        
-                    </div>
-                </div>
-            </div>
-
-           
-        </div>
-        <div class="row">
-            <div class="col-md-12">
-                <h3 class="select_heading">Meeting Channel Preference</h3>
-            </div>
-            <div class="all_radio_btns" >
-                <span class="radio_btns"><input type="radio" class="custom_checkbox" name="exampleRadios" id="exampleRadios1" checked/> <p class="m-0">Email</p> </span>
-                <span class="radio_btns"><input type="radio" name="exampleRadios" id="exampleRadios2" class="custom_checkbox"/> <p class="m-0">SMS</p> </span>
-                <span class="radio_btns"><input type="radio" name="exampleRadios" id="exampleRadios3" class="custom_checkbox"/> <p class="m-0">Phone Call</p> </span>
-                <span class="radio_btns"><input type="radio" class="custom_checkbox" name="exampleRadios" id="exampleRadios4"/> <p class="m-0">Video Call</p> </span>
-            </div>
-        </div>
-
-
-        <div class="row">
-        <div class="col-md-12">
-                <h3 class="select_heading">Contact Information</h3>
-            </div>
-                    <div class="col-md-4">
-                        <div class="form-group">
-                                <label for="exampleInputEmail1" class="email_label">Name</label>
-                                <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="John Doe">
+                <div class="row">
+                    <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
+                        <div class="blog_boxes">
+                            <div class="blogs_card_img"><img class="post_image img-fluid" src="images/meeting1.png"></div>
+                            <div class="reading_cards_headings ">
+                                <h5 class="reading_cards">Tarot Card Reading</h5>
+                                
                             </div>
+                        </div>
                     </div>
-
-                    <div class="col-md-4">
-                        <div class="form-group">
-                                <label for="exampleInputEmail1" class="email_label">E-mail</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Johndoe@example.com">
+                    <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
+                        <div class="blog_boxes">
+                            <div class="blogs_card_img"><img class="post_image img-fluid" src="images/meeting2.png"></div>
+                            <div class="reading_cards_headings_two">
+                                <h5 class="reading_cards">Transit Calendar</h5>
+                            
                             </div>
+                        </div>
                     </div>
-
-
-                    <div class="col-md-4">
-                        <div class="form-group">
-                                <label for="exampleInputEmail1" class="email_label">Phone No</label>
-                                <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="1111-222-3333-44">
+                    <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
+                        <div class="blog_boxes">
+                            <div class="blogs_card_img"><img class="post_image img-fluid" src="images/meeting3.png"></div>
+                            <div class="reading_cards_headings_three">
+                                <h5 class="reading_cards">Birth Chart Reading</h5>
+                                
                             </div>
+                        </div>
                     </div>
                 </div>
-    </div>
+            </div>
+            <div data-aos="fade-left">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <h3 class="select_heading">Meeting Channel Preference</h3>
+                        </div>
+                        <div class="all_radio_btns" >
+                            <span class="radio_btns"><input type="radio" class="custom_checkbox" name="exampleRadios" id="exampleRadios1" checked/> <p class="m-0">Email</p> </span>
+                            <span class="radio_btns"><input type="radio" name="exampleRadios" id="exampleRadios2" class="custom_checkbox"/> <p class="m-0">SMS</p> </span>
+                            <span class="radio_btns"><input type="radio" name="exampleRadios" id="exampleRadios3" class="custom_checkbox"/> <p class="m-0">Phone Call</p> </span>
+                            <span class="radio_btns"><input type="radio" class="custom_checkbox" name="exampleRadios" id="exampleRadios4"/> <p class="m-0">Video Call</p> </span>
+                        </div>
+                    </div>
+                    <div class="row">
+                                <div class="col-md-12">
+                                    <h3 class="select_heading">Contact Information</h3>
+                                </div>
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1" class="email_label">Name</label>
+                                        <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="John Doe">
+                                    </div>
+                                </div>
+
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1" class="email_label">E-mail</label>
+                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Johndoe@example.com">
+                                    </div>
+                                </div>
+
+
+                                <div class="col-md-4">
+                                    <div class="form-group">
+                                        <label for="exampleInputEmail1" class="email_label">Phone No</label>
+                                        <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="1111-222-3333-44">
+                                        </div>
+                                    </div>
+                                </div>
+                        </div>
+            </div>
 </section>
 
 
 <section>
         <div class="container">
-          <div class="row">
+          <div class="row " data-aos="fade-right">
                 <div class="col-md-6">
                     <div class="pt-5">
                         

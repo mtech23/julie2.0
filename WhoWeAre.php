@@ -17,8 +17,7 @@
                     <div class="col-lg-7 col-sm-12 ">
                         <div>
                             <h2 class="julie_heading_behind">Julie</h2>
-                            <h2 class="julie_heading">JULIE</h2>
-                            
+                            <h2 class="julie_heading">JULIE</h2>                           
                         </div>
                         <p class="julie_para">It is a long established fact that a reader will be distracted by the readable content of a
                          page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here.</p>
@@ -40,7 +39,6 @@
                         </div>                
                     </div>   
                 </div>
-                
             </div>
       </section>
       <section class="second_about_section">

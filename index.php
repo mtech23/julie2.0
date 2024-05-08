@@ -17,7 +17,7 @@
 
       <section class="jewelry_section">
         <div class="container">
-          <div class="row fadeInUp-animation">
+          <div class="row"  data-aos="fade-up">
             <div class="col-md-12">
               <div class="jewelry_heading_with_para">
                 <h3 class="jewelry">Jewelry</h3>

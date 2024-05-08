@@ -19,7 +19,10 @@
     font-family: 'poppinsLight';
     src: url('./fonts/Poppins-Light.ttf');
   }
-
+  html, body {
+		max-width:100%;
+		overflow-x:hidden;
+	}
 
   :root{
     --headingfont: 'Astrology';
@@ -41,7 +44,7 @@
 
 
   /* HEADER SECTION CSS START (main_header) */
-
+  
   .main_header{
     position: absolute;
     width: 100%;
@@ -144,7 +147,7 @@
   .jewelry_heading_with_para{
     display: flex;
     flex-wrap: wrap;
-    gap: 20px;
+    gap: 30px;
     align-items: center;
   }
 
@@ -1345,12 +1348,7 @@ ul.footer_menu{
     h2.what_heading {
       font-size: 45px;
     }
-    .navbar-collapse.in {
-      position: absolute;
-      width: 100%;
-      left: 0;
-      top: 48px;
-     }
+   
     .second_about_section {
       margin: 50px 0px;
     }
@@ -1388,6 +1386,15 @@ ul.footer_menu{
     
       margin-top: -50px;
     }
+    .navbar-collapse.in {
+      position: absolute;
+      width: 100%;
+      left: 0;
+      top: 48px;
+     }
+     /* .navbar-collapse.collapse {
+      display: none !important; 
+    } */
    }
     @media (max-width:375px) {
       h2.what_heading_behind {

@@ -28,6 +28,7 @@
 
           <!-- jewelry boxes start-->
           <div class="row">
+          <div data-aos="fade-left">
             <div class="col-lg-3 col-sm-12 col-md-6">
               <div class="jewelry_main_boxes">
                 <div class="jewelry_box_img"><img class="jewelry_image img-fluid " src="images/artworkImg01.png"></div>
@@ -60,7 +61,8 @@
                 <a class="details" href="javascript:;">Details</a>
               </div>
             </div>
-
+          </div>
+          <div data-aos="fade-right">
             <div class="col-lg-3 col-sm-12 col-md-6">
               <div class="jewelry_main_boxes">
                 <div class="jewelry_box_img"><img class="jewelry_image img-fluid " src="images/artworkImg05.png"></div>
@@ -93,7 +95,9 @@
                 <a class="details" href="javascript:;">Details</a>
               </div>
             </div>
-
+          </div>
+          
+          <div data-aos="fade-left">
             <div class="col-lg-3 col-sm-12 col-md-6">
               <div class="jewelry_main_boxes">
                 <div class="jewelry_box_img"><img class="jewelry_image img-fluid " src="images/artworkImg09.png"></div>
@@ -126,6 +130,7 @@
                 <a class="details" href="javascript:;">Details</a>
               </div>
             </div>
+          </div>
           </div>
           <!-- jewelry boxes end-->
         </div>
