@@ -34,8 +34,8 @@
 
           <!-- jewelry boxes start-->
           <div class="row">
-          <div data-aos="fade-up-left">
-                <div class="col-lg-3 col-sm-12 col-md-6">
+          <div class="col-lg-3 col-sm-12 col-md-6">
+          <div data-aos="fade-right">
                     <div class="jewelry_main_boxes">
                       <div class="jewelry_box_img">
                         <img class="jewelry_image img-fluid " src="images/storeImg01.png">
@@ -45,8 +45,9 @@
                       <a class="details" href="javascript:;">Details</a>
                     </div>
                 </div>
-            
+          </div>
                 <div class="col-lg-3 col-sm-12 col-md-6">
+                <div data-aos="fade-right">
                     <div class="jewelry_main_boxes">
                       <div class="jewelry_box_img"><img class="jewelry_image img-fluid " src="images/storeImg02.png"></div>
                       <h5 class="product_name">Product Name</h5>
@@ -54,7 +55,9 @@
                       <a class="details" href="javascript:;">Details</a>
                     </div>
                 </div>
+                </div>
                 <div class="col-lg-3 col-sm-12 col-md-6">
+                <div data-aos="fade-right">
                     <div class="jewelry_main_boxes">
                       <div class="jewelry_box_img"><img class="jewelry_image img-fluid " src="images/storeImg03.png"></div>
                       <h5 class="product_name">Product Name</h5>
@@ -62,7 +65,9 @@
                       <a class="details" href="javascript:;">Details</a>
                     </div>
                 </div>
+                </div>
                 <div class="col-lg-3 col-sm-12 col-md-6">
+                <div data-aos="fade-right">
                     <div class="jewelry_main_boxes">
                       <div class="jewelry_box_img"><img class="jewelry_image img-fluid " src="images/storeImg04.png"></div>
                       <h5 class="product_name">Product Name</h5>
@@ -70,17 +75,20 @@
                       <a class="details" href="javascript:;">Details</a>
                     </div>
                 </div>
-          </div>
-          <div data-aos="fade-right">
+                </div>
+                
                 <div class="col-lg-3 col-sm-12 col-md-6">
+                <div data-aos="fade-left">
                   <div class="jewelry_main_boxes">
                     <div class="jewelry_box_img"><img class="jewelry_image img-fluid " src="images/storeImg05.png"></div>
-                    <h5 class="product_name">Product Name</h5>
-                    <p class="product_description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    <a class="details" href="javascript:;">Details</a>
+                      <h5 class="product_name">Product Name</h5>
+                      <p class="product_description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                      <a class="details" href="javascript:;">Details</a>
+                    </div>
                   </div>
                 </div>
                 <div class="col-lg-3 col-sm-12 col-md-6">
+                <div data-aos="fade-left">
                   <div class="jewelry_main_boxes">
                     <div class="jewelry_box_img"><img class="jewelry_image img-fluid " src="images/storeImg06.png"></div>
                     <h5 class="product_name">Product Name</h5>
@@ -88,7 +96,9 @@
                     <a class="details" href="javascript:;">Details</a>
                   </div>
                 </div>
+                </div>
                 <div class="col-lg-3 col-sm-12 col-md-6">
+                <div data-aos="fade-left">
                   <div class="jewelry_main_boxes">
                     <div class="jewelry_box_img"><img class="jewelry_image img-fluid " src="images/storeImg07.png"></div>
                     <h5 class="product_name">Product Name</h5>
@@ -96,17 +106,19 @@
                     <a class="details" href="javascript:;">Details</a>
                   </div>
                 </div>
+                </div>
                 <div class="col-lg-3 col-sm-12 col-md-6">
+                <div data-aos="fade-left">
                   <div class="jewelry_main_boxes">
                     <div class="jewelry_box_img"><img class="jewelry_image img-fluid " src="images/storeImg08.png"></div>
-                    <h5 class="product_name">Product Name</h5>
-                    <p class="product_description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    <a class="details" href="javascript:;">Details</a>
-                  </div>
-             </div>
-         </div>
-         <div data-aos="fade-left">
-            <div class="col-lg-3 col-sm-12 col-md-6">
+                      <h5 class="product_name">Product Name</h5>
+                      <p class="product_description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                      <a class="details" href="javascript:;">Details</a>
+                   </div>
+                 </div>
+                </div>
+             <div class="col-lg-3 col-sm-12 col-md-6">
+             <div data-aos="fade-right">
               <div class="jewelry_main_boxes">
                   <div class="jewelry_box_img"><img class="jewelry_image img-fluid " src="images/storeImg09.png"></div>
                     <h5 class="product_name">Product Name</h5>
@@ -114,15 +126,19 @@
                     <a class="details" href="javascript:;">Details</a>
                 </div>
             </div>
+             </div>
             <div class="col-lg-3 col-sm-12 col-md-6">
-              <div class="jewelry_main_boxes">
-                <div class="jewelry_box_img"><img class="jewelry_image img-fluid " src="images/storeImg10.png"></div>
-                <h5 class="product_name">Product Name</h5>
-                <p class="product_description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                <a class="details" href="javascript:;">Details</a>
-              </div>
+            <div data-aos="fade-right">
+                <div class="jewelry_main_boxes">
+                  <div class="jewelry_box_img"><img class="jewelry_image img-fluid " src="images/storeImg10.png"></div>
+                  <h5 class="product_name">Product Name</h5>
+                  <p class="product_description">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                  <a class="details" href="javascript:;">Details</a>
+                </div>
+            </div>
             </div>
             <div class="col-lg-3 col-sm-12 col-md-6">
+            <div data-aos="fade-right">
               <div class="jewelry_main_boxes">
                 <div class="jewelry_box_img"><img class="jewelry_image img-fluid " src="images/storeImg11.png"></div>
                 <h5 class="product_name">Product Name</h5>
@@ -130,7 +146,9 @@
                 <a class="details" href="javascript:;">Details</a>
               </div>
             </div>
+            </div>
             <div class="col-lg-3 col-sm-12 col-md-6">
+            <div data-aos="fade-right">
               <div class="jewelry_main_boxes">
                 <div class="jewelry_box_img"><img class="jewelry_image img-fluid " src="images/storeImg12.png"></div>
                 <h5 class="product_name">Product Name</h5>
@@ -138,7 +156,7 @@
                 <a class="details" href="javascript:;">Details</a>
               </div>
             </div>
-        </div>
+            </div>
           </div>
           <!-- jewelry boxes end-->
         </div>

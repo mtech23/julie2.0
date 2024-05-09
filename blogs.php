@@ -15,30 +15,35 @@
        <div class="container">
        <div> 
             <div class="row ">
-            <div data-aos="fade-right">
+            <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
+                    <div data-aos="fade-right">
+                            <div class="blog_boxes">
+                                <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg01.png"></div>
+                                <div class="post_heading_with_description ">
+                                    <h5 class="post_name">Blog Title</h5>
+                                    <p class="post_description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+                                    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed </p>
+                                    <a class="post_btn" href="javascript:;">Read More</a>
+                                </div>
+                            </div>
+                     </div>
+                    </div>
+                    
                     <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
-                        <div class="blog_boxes">
-                            <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg01.png"></div>
-                            <div class="post_heading_with_description ">
-                                <h5 class="post_name">Blog Title</h5>
-                                <p class="post_description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
-                                The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed </p>
-                            <a class="post_btn" href="javascript:;">Read More</a>
+                    <div data-aos="fade-right">
+                            <div class="blog_boxes">
+                                <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg02.png"></div>
+                                <div class="post_heading_with_description ">
+                                    <h5 class="post_name">Blog Title</h5>
+                                    <p class="post_description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
+                                    The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed </p>
+                                <a class="post_btn" href="javascript:;">Read More</a>
+                                </div>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
-                        <div class="blog_boxes">
-                            <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg02.png"></div>
-                            <div class="post_heading_with_description ">
-                                <h5 class="post_name">Blog Title</h5>
-                                <p class="post_description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
-                                The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed </p>
-                            <a class="post_btn" href="javascript:;">Read More</a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
+                    <div data-aos="fade-right">
                         <div class="blog_boxes">
                             <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg03.png"></div>
                             <div class="post_heading_with_description ">
@@ -49,9 +54,9 @@
                             </div>
                         </div>
                     </div>
-            </div>
-            <div data-aos="fade-left">
-                <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
+                    </div>
+                    <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
+                    <div data-aos="fade-left">
                         <div class="blog_boxes">
                             <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg01.png"></div>
                             <div class="post_heading_with_description ">
@@ -61,8 +66,10 @@
                                 <a class="post_btn" href="javascript:;">Read More</a>
                             </div>
                         </div>
-                </div>
+                        </div>
+                    </div>
                  <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
+                 <div data-aos="fade-left">
                         <div class="blog_boxes">
                             <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg02.png"></div>
                             <div class="post_heading_with_description ">
@@ -72,8 +79,10 @@
                                 <a class="post_btn" href="javascript:;">Read More</a>
                             </div>
                         </div>
-                </div>
+                     </div>
+                 </div>
                 <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
+                <div data-aos="fade-left">
                     <div class="blog_boxes">
                         <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg03.png"></div>
                         <div class="post_heading_with_description ">
@@ -84,9 +93,9 @@
                         </div>
                     </div>
                  </div>
-            </div>
-            <div data-aos="fade-right">
-                    <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
+                </div>
+                 <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
+                 <div data-aos="fade-right">
                         <div class="blog_boxes">
                             <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg01.png"></div>
                             <div class="post_heading_with_description ">
@@ -97,7 +106,9 @@
                             </div>
                         </div>
                     </div>
+                 </div>
                     <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
+                    <div data-aos="fade-right">
                         <div class="blog_boxes">
                             <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg02.png"></div>
                             <div class="post_heading_with_description ">
@@ -108,7 +119,9 @@
                             </div>
                         </div>
                     </div>
+                    </div>
                 <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
+                <div data-aos="fade-right">
                     <div class="blog_boxes">
                         <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg03.png"></div>
                         <div class="post_heading_with_description ">
@@ -119,9 +132,9 @@
                         </div>
                     </div>
                 </div>
-            </div>
-        <div data-aos="fade-left">
+                </div>
                 <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
+                <div data-aos="fade-left">
                     <div class="blog_boxes">
                         <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg01.png"></div>
                         <div class="post_heading_with_description ">
@@ -132,7 +145,9 @@
                         </div>
                     </div>
                 </div>
+                </div>
                 <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
+                <div data-aos="fade-left">
                     <div class="blog_boxes">
                         <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg02.png"></div>
                         <div class="post_heading_with_description ">
@@ -143,7 +158,9 @@
                         </div>
                     </div>
                 </div>
+                </div>
                 <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
+                <div data-aos="fade-left">
                     <div class="blog_boxes">
                         <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg03.png"></div>
                         <div class="post_heading_with_description ">
@@ -154,7 +171,7 @@
                         </div>
                     </div>
                 </div>
-            </div>
+                </div>
         </div>
        </div>
       </section>

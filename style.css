@@ -68,9 +68,6 @@
   
   a.nav-link.main_menu_head:hover{
     text-decoration: underline !important;
-    /* background: -webkit-linear-gradient(286deg, #43B1E9, #E223FA) !important;
-    -webkit-background-clip: text !important;
-    color: transparent !important; */
     color: #E223FA !important;
    
   }
@@ -1386,12 +1383,7 @@ ul.footer_menu{
     
       margin-top: -50px;
     }
-    .navbar-collapse.in {
-      position: absolute;
-      width: 100%;
-      left: 0;
-      top: 48px;
-     }
+   
      .copy_right {
       font-size: 11px;
       line-height: 26.09px;  
@@ -1403,9 +1395,7 @@ ul.footer_menu{
       font-size: 11px;
       line-height: 1.09px; 
   }
-     /* .navbar-collapse.collapse {
-      display: none !important; 
-    } */
+    
    }
     @media (max-width:375px) {
       h2.what_heading_behind {

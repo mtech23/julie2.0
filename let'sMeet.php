@@ -2,7 +2,7 @@
 
 <section class="banner_top_section">
         <div class="container">
-            <div class="row">
+            <div class="row" >
                 <div class="col-md-10 mx-auto">
                     <h1 class="store">Let’s Meet</h1>
                     <p class="store_para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
@@ -14,9 +14,9 @@
 
 <section class="lets_meet_section">
     <div class="container">
-    <div data-aos="fade-right">
+   
                 <div class="row">
-                    <div class="col-md-12">
+                    <div class="col-md-12" >
                         <h3 class="meeting">Meeting Form</h3>
                     </div>
                 </div>
@@ -54,8 +54,8 @@
                         </div>
                     </div>
                 </div>
-            </div>
-            <div data-aos="fade-left">
+        
+           
                     <div class="row">
                         <div class="col-md-12">
                             <h3 class="select_heading">Meeting Channel Preference</h3>
@@ -94,13 +94,13 @@
                                     </div>
                                 </div>
                         </div>
-            </div>
+           
 </section>
 
 
 <section>
         <div class="container">
-          <div class="row " data-aos="fade-right">
+          <div class="row ">
                 <div class="col-md-6">
                     <div class="pt-5">
                         
@@ -168,9 +168,7 @@
 
       </script>
       <script>
-            // Below code sets format to the 
-        // datetimepicker having id as 
-        // datetime
+     
         $('#datetime').datetimepicker({
             format: 'hh:mm:ss a'
         });
