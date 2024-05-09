@@ -1308,7 +1308,16 @@ ul.footer_menu{
       .login_section .jewelry{
         font-size: 50px !important;
       }
-  
+      .main_body_bg {
+        padding: 48px 0px 0px;
+    }    
+    .meeting {
+      font-size: 40px;
+    }
+    .select_heading {
+
+      font-size: 18px
+    }
     p.jewelry_para {
       display: -webkit-box;
       overflow: hidden;
@@ -1386,7 +1395,7 @@ ul.footer_menu{
    
      .copy_right {
       font-size: 11px;
-      line-height: 26.09px;  
+      line-height: 10.09px;  
     }
     .policies {
       gap: 13px;
