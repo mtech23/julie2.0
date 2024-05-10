@@ -35,7 +35,7 @@
   }
 
   .main_body_bg{
-    background-image: url("./images/main-bk.png");
+    background-image: url("./images/main-bgg.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -118,6 +118,7 @@
   background-size: 100% 100%;
   background-repeat: no-repeat;
   padding: 100px 0px 40px;
+  position: relative;
 }
 
 .banner_top_section h1.store{
@@ -140,6 +141,42 @@
   
 
   /* JEWELRY SECTION CSS START (jewelry_section) */
+  .star{
+    position: absolute;
+    top: -51px;
+    right: 0;
+    animation: rotateIn;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+
+  }
+  .star_two{
+    position: absolute;
+    top: 62px;
+    right: -87px;
+    animation: rotateIn;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+  .star_three{
+    position: absolute;
+    top: 0;
+    left: -58px;
+    animation: rotateIn;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+  .star_four{
+    position: absolute;
+    top: 127px;
+    left: -129px;
+    animation: rotateIn;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+  }
+
+
+
 
   .jewelry_heading_with_para{
     display: flex;
@@ -173,10 +210,14 @@
     margin: 0px;
     border: 1px solid #43B1E9;
     font-size: 14px;
+
   }
   .art_work:hover{
     background: linear-gradient(286deg, #43B1E9, #E223FA);
     color:#fff;
+    text-decoration: none;
+    /* animation: bounceIn;
+    animation-duration: 2s; */
   }
   .price{
     font-family: var(--contentfont);
@@ -235,7 +276,7 @@
     color: #fff;
     text-decoration: none;
     background: linear-gradient(286deg, #43B1E9, #E223FA);
-    
+   
   }
 
   .jewelry_box_img {
@@ -254,7 +295,7 @@
     border-radius: 140px;
   }
     /* animation for home page start*/
-    @keyframes fadeInLeft {
+    /* @keyframes fadeInLeft {
       from {
           opacity:0;
           -webkit-transform: translatex(-100px);
@@ -313,7 +354,7 @@
     }
     .fadeInRight-animation{
       animation: fadeInRight 1s ease-in-out;
-    }
+    } */
  /* animation for home page end*/
 
   /* jewelry boxes end  */
@@ -556,6 +597,11 @@
     background-size: cover;
     padding: 80px 35px;
   }
+
+  .card_row_center{
+   justify-content: center;
+  }
+
   .Tarot_Card{
     font-family: var(--headingfont);
     font-size: 37px;
@@ -1451,4 +1497,107 @@ ul.footer_menu{
 
   
 
-
+/* animation css start */
+  .store{
+    animation: bounce;
+    animation-duration: 2s; 
+    animation-timing-function: ease-in-out;
+    /* animation-iteration-count: infinite; */
+  }
+  .store_para{
+    animation: fadeInLeft;
+    animation-duration: 2s;
+  }
+  .jewelry_heading_with_para{
+    animation: bounce;
+    animation-duration: 3s; 
+  }
+  .jewelry_images_animate{
+    animation: zoomIn;
+    animation-duration: 2s;
+  }
+  .product_name_one{
+    animation: zoomIn;
+    animation-duration: 2s;
+  }
+  .product_description_one{
+    animation: zoomIn;
+    animation-duration: 2s;
+  }
+  .details_one{
+    animation: zoomIn;
+    animation-duration: 2s;
+  }
+  .meeting{
+    animation:fadeInDown;
+    animation-duration: 2s;
+  }
+  .select_heading{
+    animation:fadeInLeft;
+    animation-duration: 2s;
+  }
+  /* .blog_boxes{
+    animation:fadeInLeft;
+    animation-duration: 2s;
+  } */
+  .animated_fields{
+    animation:fadeInUp;
+    animation-duration: 2s;
+  }
+  .aniamted_calendar{
+    animation:fadeInLeft;
+    animation-duration: 2s;
+  }
+  .aniamted_clock{
+    animation:fadeInRight;
+    animation-duration: 2s;
+  }
+  .animated_blog_box{
+    animation:fadeInDown;
+    animation-duration: 2s;  
+  }
+  .logo-name:hover{
+    animation: heartBeat;
+    animation-duration: 2s;  
+  }
+  .animated_jewelry_image{
+    animation: zoomIn;
+    animation-duration: 2s;
+    animation-delay: 1s;
+  }
+  .animated_jewelry_images_thirdRow{
+    animation: zoomIn;
+    animation-duration: 2s;
+    animation-delay: 1s;
+  }
+  .product_name_two{
+    animation: zoomIn;
+    animation-duration: 2s;
+    animation-delay: 1s;
+  }
+  .product_name_three{
+    animation: zoomIn;
+    animation-duration: 2s;
+    animation-delay: 1.5s;
+  }
+  .details_two{
+    animation: zoomIn;
+    animation-duration: 2s;
+    animation-delay: 1s;
+  }
+  .details_three{
+    animation: zoomIn;
+    animation-duration: 2s;
+    animation-delay: 1.5s;
+  }
+  .product_description_two{
+    animation: zoomIn;
+    animation-duration: 2s;
+    animation-delay: 1s;
+  }
+  .product_description_three{
+    animation: zoomIn;
+    animation-duration: 2s;
+    animation-delay: 1.5s;
+  }
+  /* animation css end*/

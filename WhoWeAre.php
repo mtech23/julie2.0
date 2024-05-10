@@ -79,44 +79,38 @@
       <section class="third_about_section">
         <div class="container">
             <div class="row" data-aos="fade-up-left">
-                <div class="col-md-12">
-                    <div>
-                        <h2 class="what_heading_behind">WHAT WE DO</h2>
-                        <h2 class="what_heading">WHAT WE DO</h2>
-                        
+                    <div class="col-md-12">
+                        <div>
+                            <h2 class="what_heading_behind">WHAT WE DO</h2>
+                            <h2 class="what_heading">WHAT WE DO</h2>
+                        </div>
                     </div>
-                </div>
             </div>
-           <div class="row mt-5" data-aos="fade-up">
-                <div class="col-md-4 col-sm-12 ">
+           <div class="row mt-5 card_row_center" data-aos="fade-up">
+                <!-- <div class="col-md-4 col-sm-12 ">
                     <div class="what_we_do_card ">
                         <h3 class="Tarot_Card">Tarot Card</h3>
                         <p class="Tarot_Card_para">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point 
-                            of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, 
-                            as opposed to using 'Content here. It is a long established fact that a reader will be distracted by the </p>
+                        of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, 
+                        as opposed to using 'Content here. It is a long established fact that a reader will be distracted by the </p>
                     </div>
-            
-                </div>
+                    
+                </div> -->
                 <div class="col-md-4 col-sm-12">
                     <div class="what_we_do_card asisstant_cards">
                         <h3 class="Tarot_Card">Birth Chart</h3>
                         <p class="Tarot_Card_para">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum 
-                            is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here. It is a long established fact that a reader will be distracted by the  </p>
+                        is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here. It is a long established fact that a reader will be distracted by the  </p>
                     </div>
-            
-                </div>
+                 </div>
                 <div class="col-md-4 col-sm-12">
                     <div class="what_we_do_card asisstant_cards">
                         <h3 class="Tarot_Card">Transit Calendar</h3>
                         <p class="Tarot_Card_para">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem 
-                            Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here. It is a long established fact that a reader will be distracted by the  </p>
+                        Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here. It is a long established fact that a reader will be distracted by the  </p>
                     </div>
-            
                 </div>
-                
-        
             </div>
-
         </div>
       </section>
       

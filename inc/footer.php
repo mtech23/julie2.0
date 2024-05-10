@@ -36,27 +36,27 @@
                     
                         <ul class="footer_menu">
                           <li class="">
-                            <a class="footer_links" href="index">Home</a>
+                            <a class="footer_links" href="index.php">Home</a>
                           </li>
 
                           <li class="">
-                            <a class="footer_links" href="artwork">Our Store</a>
+                            <a class="footer_links" href="artwork.php">Our Store</a>
                           </li>
 
                           <li class="">
-                            <a class="footer_links" href="TodayZodiac">Today Zodiac</a>
+                            <a class="footer_links" href="TodayZodiac.php">Today Zodiac</a>
                           </li>
 
                           <li class="">
-                            <a class="footer_links" href="blogs">Blogs</a>
+                            <a class="footer_links" href="blogs.php">Blogs</a>
                           </li>
 
                           <li class="">
-                            <a class="footer_links" href="let'sMeet">Let’s Meet</a>
+                            <a class="footer_links" href="let'sMeet.php">Let’s Meet</a>
                           </li>
 
                           <li class="">
-                            <a class="footer_links" href="WhoWeAre">Who We Are</a>
+                            <a class="footer_links" href="WhoWeAre.php">Who We Are</a>
                           </li>
                       </ul>
                   
@@ -84,13 +84,16 @@
       <?php include 'inc/script.php' ?>
 
       <script>
-      $(document).on('ready', function () {
+          $(document).on('ready', function () {
 
-        AOS.init({
-      duration: 650,
-      once: true
-    });
-  });
-</script>
+            AOS.init({
+              duration: 650,
+              once: true
+            });
+          });
+      </script>
+
+
+ 
 </body>
 </html>

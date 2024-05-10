@@ -27,7 +27,7 @@
                 </div>
                 <div class="row">
                     <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
-                        <div class="blog_boxes">
+                        <div class="blog_boxes aniamted_calendar">
                             <div class="blogs_card_img"><img class="post_image img-fluid" src="images/meeting1.png"></div>
                             <div class="reading_cards_headings ">
                                 <h5 class="reading_cards">Tarot Card Reading</h5>
@@ -36,7 +36,7 @@
                         </div>
                     </div>
                     <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
-                        <div class="blog_boxes">
+                        <div class="blog_boxes animated_fields">
                             <div class="blogs_card_img"><img class="post_image img-fluid" src="images/meeting2.png"></div>
                             <div class="reading_cards_headings_two">
                                 <h5 class="reading_cards">Transit Calendar</h5>
@@ -45,7 +45,7 @@
                         </div>
                     </div>
                     <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
-                        <div class="blog_boxes">
+                        <div class="blog_boxes aniamted_clock">
                             <div class="blogs_card_img"><img class="post_image img-fluid" src="images/meeting3.png"></div>
                             <div class="reading_cards_headings_three">
                                 <h5 class="reading_cards">Birth Chart Reading</h5>
@@ -60,7 +60,7 @@
                         <div class="col-md-12">
                             <h3 class="select_heading">Meeting Channel Preference</h3>
                         </div>
-                        <div class="all_radio_btns" >
+                        <div class="all_radio_btns animated_fields" >
                             <span class="radio_btns"><input type="radio" class="custom_checkbox" name="exampleRadios" id="exampleRadios1" checked/> <p class="m-0">Email</p> </span>
                             <span class="radio_btns"><input type="radio" name="exampleRadios" id="exampleRadios2" class="custom_checkbox"/> <p class="m-0">SMS</p> </span>
                             <span class="radio_btns"><input type="radio" name="exampleRadios" id="exampleRadios3" class="custom_checkbox"/> <p class="m-0">Phone Call</p> </span>
@@ -72,14 +72,14 @@
                                     <h3 class="select_heading">Contact Information</h3>
                                 </div>
                                 <div class="col-md-4">
-                                    <div class="form-group">
+                                    <div class="form-group animated_fields">
                                         <label for="exampleInputEmail1" class="email_label">Name</label>
                                         <input type="text" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="John Doe">
                                     </div>
                                 </div>
 
                                 <div class="col-md-4">
-                                    <div class="form-group">
+                                    <div class="form-group animated_fields">
                                         <label for="exampleInputEmail1" class="email_label">E-mail</label>
                                         <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Johndoe@example.com">
                                     </div>
@@ -87,7 +87,7 @@
 
 
                                 <div class="col-md-4">
-                                    <div class="form-group">
+                                    <div class="form-group animated_fields">
                                         <label for="exampleInputEmail1" class="email_label">Phone No</label>
                                         <input type="number" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="1111-222-3333-44">
                                         </div>
@@ -105,7 +105,7 @@
                     <div class="pt-5">
                         
                             <div id="basic" class="">
-                            <div class="calendar"></div>
+                            <div class="calendar aniamted_calendar"></div>
                             </div>
 
                     </div>
@@ -114,7 +114,7 @@
                     <div class="pt-5">
                         
                         <div>
-                            <input class="form-control time_selection_box" type="text" id="datetime" placeholder="Select Time" />
+                            <input class="form-control time_selection_box aniamted_clock" type="text" id="datetime" placeholder="Select Time" />
                           
                         </div>
 

@@ -17,7 +17,7 @@
             <div class="row ">
             <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
                     <div data-aos="fade-right">
-                            <div class="blog_boxes">
+                            <div class="blog_boxes aniamted_clock">
                                 <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg01.png"></div>
                                 <div class="post_heading_with_description ">
                                     <h5 class="post_name">Blog Title</h5>
@@ -31,7 +31,7 @@
                     
                     <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
                     <div data-aos="fade-right">
-                            <div class="blog_boxes">
+                            <div class="blog_boxes animated_fields">
                                 <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg02.png"></div>
                                 <div class="post_heading_with_description ">
                                     <h5 class="post_name">Blog Title</h5>
@@ -44,7 +44,7 @@
                     </div>
                     <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
                     <div data-aos="fade-right">
-                        <div class="blog_boxes">
+                        <div class="blog_boxes aniamted_calendar">
                             <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg03.png"></div>
                             <div class="post_heading_with_description ">
                                 <h5 class="post_name">Blog Title</h5>
@@ -57,7 +57,7 @@
                     </div>
                     <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
                     <div data-aos="fade-left">
-                        <div class="blog_boxes">
+                        <div class="blog_boxes aniamted_clock">
                             <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg01.png"></div>
                             <div class="post_heading_with_description ">
                                 <h5 class="post_name">Blog Title</h5>
@@ -70,7 +70,7 @@
                     </div>
                  <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
                  <div data-aos="fade-left">
-                        <div class="blog_boxes">
+                        <div class="blog_boxes animated_blog_box">
                             <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg02.png"></div>
                             <div class="post_heading_with_description ">
                                 <h5 class="post_name">Blog Title</h5>
@@ -83,7 +83,7 @@
                  </div>
                 <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
                 <div data-aos="fade-left">
-                    <div class="blog_boxes">
+                    <div class="blog_boxes aniamted_calendar">
                         <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg03.png"></div>
                         <div class="post_heading_with_description ">
                             <h5 class="post_name">Blog Title</h5>
@@ -96,7 +96,7 @@
                 </div>
                  <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
                  <div data-aos="fade-right">
-                        <div class="blog_boxes">
+                        <div class="blog_boxes aniamted_clock">
                             <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg01.png"></div>
                             <div class="post_heading_with_description ">
                                 <h5 class="post_name">Blog Title</h5>
@@ -109,7 +109,7 @@
                  </div>
                     <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
                     <div data-aos="fade-right">
-                        <div class="blog_boxes">
+                        <div class="blog_boxes animated_fields">
                             <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg02.png"></div>
                             <div class="post_heading_with_description ">
                                 <h5 class="post_name">Blog Title</h5>
@@ -122,7 +122,7 @@
                     </div>
                 <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
                 <div data-aos="fade-right">
-                    <div class="blog_boxes">
+                    <div class="blog_boxes aniamted_calendar">
                         <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg03.png"></div>
                         <div class="post_heading_with_description ">
                             <h5 class="post_name">Blog Title</h5>
@@ -135,7 +135,7 @@
                 </div>
                 <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
                 <div data-aos="fade-left">
-                    <div class="blog_boxes">
+                    <div class="blog_boxes aniamted_clock">
                         <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg01.png"></div>
                         <div class="post_heading_with_description ">
                             <h5 class="post_name">Blog Title</h5>
@@ -148,7 +148,7 @@
                 </div>
                 <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
                 <div data-aos="fade-left">
-                    <div class="blog_boxes">
+                    <div class="blog_boxes animated_blog_box">
                         <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg02.png"></div>
                         <div class="post_heading_with_description ">
                             <h5 class="post_name">Blog Title</h5>
@@ -161,7 +161,7 @@
                 </div>
                 <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
                 <div data-aos="fade-left">
-                    <div class="blog_boxes">
+                    <div class="blog_boxes aniamted_calendar">
                         <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg03.png"></div>
                         <div class="post_heading_with_description ">
                             <h5 class="post_name">Blog Title</h5>
