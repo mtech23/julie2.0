@@ -29,7 +29,7 @@
           <div class="row"  data-aos="fade-up">
             <div class="col-md-12">
               <div class="jewelry_heading_with_para">
-              <img  src="images/file.png" class="img-fluid star">
+                <img  src="images/file.png" class="img-fluid star">
                 <img  src="images/file.png" class="img-fluid star_two">
                 <h3 class="jewelry">Jewelry</h3>
                 <p class="jewelry_para"> Lorem Ipsum is simply dummy text of the printing and <br> Lorem Ipsum is simply dummy text of the printing and</p>
@@ -172,9 +172,10 @@
             <div class="col-lg-3 col-sm-12 col-md-6">
             <div data-aos="fade-right">
               <div class="jewelry_main_boxes">
+              <img  src="images/file.png" class="img-fluid star_eleven">
                 <div class="jewelry_box_img"><img class="jewelry_image animated_jewelry_images_thirdRow img-fluid " src="images/storeImg12.png"></div>
                 <h5 class="product_name product_name_three">Product Name</h5>
-                <img  src="images/file.png" class="img-fluid star_eleven">
+               
                 <p class="product_description product_description_three">Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
                 <a class="details details_three" href="javascript:;">Details</a>
                 <img  src="images/file.png" class="img-fluid star_forteen">

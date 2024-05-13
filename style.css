@@ -323,6 +323,7 @@
     animation: rotateIn;
     animation-duration: 1s;
     animation-iteration-count: infinite;
+    width: 35px;
   }
   .star_five{
     position: absolute;
@@ -341,6 +342,7 @@
     animation-duration: 2s;
     animation-iteration-count: infinite;
   }
+ 
   .star_thirteen{
     position: absolute;
     top: 0;
@@ -376,6 +378,109 @@
     animation-duration: 1s;
     animation-iteration-count: infinite;
   }
+  .star_fifteen {
+    position: absolute;
+    top: 0px;
+    left: -252px;
+    animation: rotateIn;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+.star_sixteen{
+    position: absolute;
+    top: 0;
+    animation: rotateIn;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    right: -161px;
+  }
+  .star_seventeen {
+    position: absolute;
+    top: -272px;
+    animation: rotateIn;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    left: -161px;
+    width: 45px;
+}
+  .star_nineteen{
+    position: absolute;
+    top: 51px;
+    animation: rotateIn;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    left: -277px;
+  }
+.star_eighteen {
+  position: absolute;
+  top: 0;
+  animation: rotateIn;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  left: -227px;
+}
+.star_twenty {
+  position: absolute;
+  top: 408px;
+  animation: rotateIn;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  right: 0px;
+  width: 45px;
+}
+.star_twentyone {
+  position: absolute;
+  top: 148px;
+  animation: rotateIn;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  left: -231px;
+  width: 32px;
+}
+.star_twentytwo{
+  position: absolute;
+  top: 294px;
+  animation: rotateIn;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  right: 150px;
+  width: 39px;
+}
+.star_twentythree {
+  position: absolute;
+  top: 0;
+  left: -167px;
+  width: 42px;
+  animation: flash;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  width: 29px;
+}
+.star_twentytfour {
+  position: absolute;
+  top: 0;
+  left: -235px;
+  animation: rotateIn;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+.star_twentytfive {
+  position: absolute;
+  top: 0px;
+  animation: rotateIn;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  right: 0;
+}
+.star_twentytsix {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 27px;
+  animation: flash;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
   .star_ten{
     position: absolute;
     top: 30px;
@@ -454,8 +559,8 @@
     background: linear-gradient(286deg, #43B1E9, #E223FA);
     color:#fff;
     text-decoration: none;
-    animation: bounceIn;
-    animation-duration: 2s;
+    /* animation: bounceIn;
+    animation-duration: 2s; */
   }
   .price{
     font-family: var(--contentfont);
@@ -520,34 +625,34 @@
   }
 
   .jewelry_box_img {
-  position: relative;
+    position: relative;
+    
   }
-   
+  
   .jewelry_box_img:hover::after, .jewelry_box_img:hover::before{
     transform: scale(1, 1);
-  }
-
+}
   .jewelry_box_img::after, .jewelry_box_img::before{
-    content: '';
-    position: absolute;
-    height: 84%;
-    width: 80%;
-    border: 1px solid #fff;
-    top: 28px;
-    left: 10%;
-    transform: translate(-50%, -50%);
-    border-radius: 140px;
+      content: '';
+      position: absolute;
+      top: 30px;
+      right: 30px;
+      bottom: 30px;
+      left: 30px;
+      border-radius: 100px;
+      transition: all 0.5s;
   }
   .jewelry_box_img::after{
-    border-right: 1px solid #fff;;
-    border-left: 1px solid #fff;;
-    transform: scale(1, 0);
+      border-right: 1px solid #fff;
+      border-left: 1px solid #fff;
+      transform: scale(1, 0);
   }
   .jewelry_box_img::before{
       border-top: 1px solid #fff;
-      border-bottom: 1px solid #fff;;
+      border-bottom: 1px solid #fff;
       transform: scale(0, 1);
   }
+
 
   /* .jewelry_box_img::before {
     content: '';
@@ -559,7 +664,12 @@
     left: 50%;
     transform: translate(-50%, -50%);
     border-radius: 140px;
-  } */
+  }
+   */
+  
+ 
+
+
     /* animation for home page start*/
     /* @keyframes fadeInLeft {
       from {
@@ -1272,6 +1382,8 @@ background-clip: text;
 }
 .reading_cards_headings:hover{
   background-color:#FFC700 ;
+  animation: pulse;
+  animation-duration: 1s;
 }
 .reading_cards_headings_two{
   position: relative;
@@ -1287,7 +1399,9 @@ background-clip: text;
   margin: -49px 13px 0px 13px
 }
 .reading_cards_headings_two:hover{
-  background-color:#E223FA;;
+  background-color:#E223FA;
+  animation: pulse;
+  animation-duration: 1s;
 }
 .reading_cards_headings_three{
   position: relative;
@@ -1304,6 +1418,8 @@ background-clip: text;
 }
 .reading_cards_headings_three:hover{
   background-color:#43B1E9;
+  animation: pulse;
+  animation-duration: 1s;
 }
 .lets_meet_section .post_heading_with_description{
   margin: -50px 13px 0px 13px;
@@ -1816,6 +1932,11 @@ ul.footer_menu{
     animation:fadeInUp;
     animation-duration: 2s;
   }
+  .animated_fields_two{
+    animation:fadeInUp;
+    animation-duration: 2s;
+    animation-delay: 1s; 
+  }
   .aniamted_calendar{
     animation:fadeInLeft;
     animation-duration: 2s;
@@ -1824,6 +1945,11 @@ ul.footer_menu{
     animation:fadeInRight;
     animation-duration: 2s;
     animation-delay: 1s; 
+  }
+  .aniamted_calendar_three{
+    animation:fadeInRight;
+    animation-duration: 2s;
+    animation-delay: 2s; 
   }
   .aniamted_clock{
     animation:fadeInRight;
@@ -1834,11 +1960,22 @@ ul.footer_menu{
     animation-duration: 2s;
     animation-delay: 1s;
   }
+  .aniamted_clock_three{
+    animation:fadeInLeft;
+    animation-duration: 2s;
+    animation-delay: 2s;
+  }
   .animated_blog_box_two{
     animation:fadeInDown;
     animation-duration: 2s;
     animation-delay: 1s;  
   }
+  .animated_blog_box_three{
+    animation:fadeInDown;
+    animation-duration: 2s;
+    animation-delay: 2s;  
+  }
+  .a
   .animated_blog_box{
     animation:fadeInDown;
     animation-duration: 2s;  

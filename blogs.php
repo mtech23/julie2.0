@@ -27,11 +27,14 @@
                     <div data-aos="fade-right">
                             <div class="blog_boxes aniamted_clock">
                                 <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg01.png"></div>
+                                <img  src="images/file.png" class="img-fluid star_three">
                                 <div class="post_heading_with_description ">
                                     <h5 class="post_name">Blog Title</h5>
+                                    <img  src="images/file.png" class="img-fluid star_four">
                                     <p class="post_description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
                                     The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed </p>
                                     <a class="post_btn" href="javascript:;">Read More</a>
+                                    <img  src="images/file.png" class="img-fluid star_five">
                                 </div>
                             </div>
                      </div>
@@ -54,6 +57,8 @@
                     <div data-aos="fade-right">
                         <div class="blog_boxes aniamted_calendar">
                             <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg03.png"></div>
+                            <img  src="images/file.png" class="img-fluid star">
+                            <img  src="images/file.png" class="img-fluid star_two">
                             <div class="post_heading_with_description ">
                                 <h5 class="post_name">Blog Title</h5>
                                 <p class="post_description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
@@ -66,8 +71,9 @@
                     <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
                     <div data-aos="fade-left">
                         <div class="blog_boxes aniamted_clock_two">
-                            <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg01.png"></div>
+                            <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg01.png"></div>                           
                             <div class="post_heading_with_description ">
+                            <img  src="images/file.png" class="img-fluid star_fifteen">
                                 <h5 class="post_name">Blog Title</h5>
                                 <p class="post_description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
                                 The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed </p>
@@ -91,12 +97,14 @@
                  </div>
                 <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
                 <div data-aos="fade-left">
-                    <div class="blog_boxes aniamted_calendar_two">
+                    <div class="blog_boxes aniamted_calendar_two">                   
                         <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg03.png"></div>
-                        <div class="post_heading_with_description ">
+                        <div class="post_heading_with_description ">  
+                         <img  src="images/file.png" class="img-fluid star_sixteen">                    
                             <h5 class="post_name">Blog Title</h5>
                             <p class="post_description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
                             The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed </p>
+                            <img  src="images/file.png" class="img-fluid star_six">
                             <a class="post_btn" href="javascript:;">Read More</a>
                         </div>
                     </div>
@@ -104,20 +112,22 @@
                 </div>
                  <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
                  <div data-aos="fade-right">
-                        <div class="blog_boxes aniamted_clock">
+                        <div class="blog_boxes aniamted_clock_two">
                             <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg01.png"></div>
                             <div class="post_heading_with_description ">
+                            <img  src="images/file.png" class="img-fluid star_seventeen">
                                 <h5 class="post_name">Blog Title</h5>
                                 <p class="post_description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
                                 The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed </p>
                             <a class="post_btn" href="javascript:;">Read More</a>
+                            <img  src="images/file.png" class="img-fluid star_nineteen">
                             </div>
                         </div>
                     </div>
                  </div>
                     <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
                     <div data-aos="fade-right">
-                        <div class="blog_boxes animated_fields">
+                        <div class="blog_boxes animated_fields_two">
                             <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg02.png"></div>
                             <div class="post_heading_with_description ">
                                 <h5 class="post_name">Blog Title</h5>
@@ -130,22 +140,24 @@
                     </div>
                 <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
                 <div data-aos="fade-right">
-                    <div class="blog_boxes aniamted_calendar">
+                    <div class="blog_boxes aniamted_calendar_two">
                         <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg03.png"></div>
                         <div class="post_heading_with_description ">
                             <h5 class="post_name">Blog Title</h5>
                             <p class="post_description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
                             The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed </p>
                             <a class="post_btn" href="javascript:;">Read More</a>
+                            <img  src="images/file.png" class="img-fluid star_forteen">
                         </div>
                     </div>
                 </div>
                 </div>
                 <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
                 <div data-aos="fade-left">
-                    <div class="blog_boxes aniamted_clock">
+                    <div class="blog_boxes aniamted_clock_three">
                         <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg01.png"></div>
                         <div class="post_heading_with_description ">
+                        <img  src="images/file.png" class="img-fluid star_eighteen">
                             <h5 class="post_name">Blog Title</h5>
                             <p class="post_description">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. 
                             The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed </p>
@@ -156,7 +168,7 @@
                 </div>
                 <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
                 <div data-aos="fade-left">
-                    <div class="blog_boxes animated_blog_box">
+                    <div class="blog_boxes animated_blog_box_three">
                         <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg02.png"></div>
                         <div class="post_heading_with_description ">
                             <h5 class="post_name">Blog Title</h5>
@@ -169,7 +181,7 @@
                 </div>
                 <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
                 <div data-aos="fade-left">
-                    <div class="blog_boxes aniamted_calendar">
+                    <div class="blog_boxes aniamted_calendar_three">
                         <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg03.png"></div>
                         <div class="post_heading_with_description ">
                             <h5 class="post_name">Blog Title</h5>

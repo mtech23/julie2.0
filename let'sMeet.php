@@ -2,7 +2,15 @@
 
 <section class="banner_top_section">
         <div class="container">
-            <div class="row" >
+            <div class="row">
+                <!-- BG Star annimation Star -->
+                    <div class="bg-animation">
+                        <div id="stars"></div>
+                        <div id="stars2"></div>
+                        <div id="stars3"></div>
+                        <div id="stars4"></div>
+                    </div>
+            <!-- BG Star annimation End -->
                 <div class="col-md-10 mx-auto">
                     <h1 class="store">Let’s Meet</h1>
                     <p class="store_para">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
@@ -18,6 +26,8 @@
                 <div class="row">
                     <div class="col-md-12">
                         <h3 class="meeting">Meeting Form</h3>
+                        <img  src="images/file.png" class="img-fluid star">
+                        <img  src="images/file.png" class="img-fluid star_two">
                     </div>
                 </div>
                 <div class="row">
@@ -28,10 +38,12 @@
                 <div class="row">
                     <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
                         <div class="blog_boxes aniamted_calendar">
+                        <img  src="images/file.png" class="img-fluid star_three">
+                        <img  src="images/file.png" class="img-fluid star_four">
                             <div class="blogs_card_img"><img class="post_image img-fluid" src="images/meeting1.png"></div>
                             <div class="reading_cards_headings ">
                                 <h5 class="reading_cards">Tarot Card Reading</h5>
-                                
+                               
                             </div>
                         </div>
                     </div>
@@ -49,6 +61,7 @@
                             <div class="blogs_card_img"><img class="post_image img-fluid" src="images/meeting3.png"></div>
                             <div class="reading_cards_headings_three">
                                 <h5 class="reading_cards">Birth Chart Reading</h5>
+                                <img src="images/file.png" class="img-fluid star_twenty ">
                                 
                             </div>
                         </div>
@@ -59,6 +72,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <h3 class="select_heading">Meeting Channel Preference</h3>
+                            <img  src="images/file.png" class="img-fluid star_twentythree">
                         </div>
                         <div class="all_radio_btns animated_fields" >
                             <span class="radio_btns"><input type="radio" class="custom_checkbox" name="exampleRadios" id="exampleRadios1" checked/> <p class="m-0">Email</p> </span>
@@ -66,10 +80,11 @@
                             <span class="radio_btns"><input type="radio" name="exampleRadios" id="exampleRadios3" class="custom_checkbox"/> <p class="m-0">Phone Call</p> </span>
                             <span class="radio_btns"><input type="radio" class="custom_checkbox" name="exampleRadios" id="exampleRadios4"/> <p class="m-0">Video Call</p> </span>
                         </div>
+                        
                     </div>
                     <div class="row">
                                 <div class="col-md-12">
-                                    <h3 class="select_heading">Contact Information</h3>
+                                    <h3 class="select_heading">Contact Information</h3>                                   
                                 </div>
                                 <div class="col-md-4">
                                     <div class="form-group animated_fields">
@@ -93,6 +108,7 @@
                                         </div>
                                     </div>
                                 </div>
+                                
                         </div>
            
 </section>
@@ -109,15 +125,15 @@
                             </div>
 
                     </div>
+                    <img src="images/file.png" class="img-fluid star_twentyone">
                 </div>
                 <div class="col-md-6">
                     <div class="pt-5">
                         
                         <div>
-                            <input class="form-control time_selection_box aniamted_clock" type="text" id="datetime" placeholder="Select Time" />
-                          
+                            <input class="form-control time_selection_box aniamted_clock" type="text" id="datetime" placeholder="Select Time" />              
                         </div>
-
+                        <img  src="images/file.png" class="img-fluid star_twentytwo">
 
                     </div>
                 </div>
