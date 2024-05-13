@@ -2,6 +2,14 @@
 
     <section class="banner_top_section">
         <div class="container">
+             <!-- BG Star annimation Star -->
+                <div class="bg-animation">
+                    <div id="stars"></div>
+                    <div id="stars2"></div>
+                    <div id="stars3"></div>
+                    <div id="stars4"></div>
+                </div>
+             <!-- BG Star annimation End -->
             <div class="row">
                 <div class="col-md-12">
                     <h1 class="store">Blogs</h1>
@@ -57,7 +65,7 @@
                     </div>
                     <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
                     <div data-aos="fade-left">
-                        <div class="blog_boxes aniamted_clock">
+                        <div class="blog_boxes aniamted_clock_two">
                             <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg01.png"></div>
                             <div class="post_heading_with_description ">
                                 <h5 class="post_name">Blog Title</h5>
@@ -70,7 +78,7 @@
                     </div>
                  <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
                  <div data-aos="fade-left">
-                        <div class="blog_boxes animated_blog_box">
+                        <div class="blog_boxes animated_blog_box_two">
                             <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg02.png"></div>
                             <div class="post_heading_with_description ">
                                 <h5 class="post_name">Blog Title</h5>
@@ -83,7 +91,7 @@
                  </div>
                 <div class="col-sm-8 col-lg-4 col-md-6 mx-auto">
                 <div data-aos="fade-left">
-                    <div class="blog_boxes aniamted_calendar">
+                    <div class="blog_boxes aniamted_calendar_two">
                         <div class="blogs_card_img"><img class="post_image img-fluid" src="images/blogsImg03.png"></div>
                         <div class="post_heading_with_description ">
                             <h5 class="post_name">Blog Title</h5>
